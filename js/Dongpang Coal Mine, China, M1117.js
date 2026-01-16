@@ -1,0 +1,209 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.422286,
+              37.21947
+            ],
+            [
+              114.484997,
+              37.218238
+            ],
+            [
+              114.485221,
+              37.257489
+            ],
+            [
+              114.428707,
+              37.259013
+            ],
+            [
+              114.422286,
+              37.21947
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1117.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2015-06-01 00:00:00",
+        "notes": "The boundary area 23.8 sq km was found in the document Graduation Thesis on the Design of a New 1.2 Mt/a Shaft for Dongpang Coal Mine (\u4e1c\u5e9e\u77ff1.2Mta\u65b0\u4e95\u8bbe\u8ba1\u6bd5\u4e1a\u8bbe\u8ba1\u8bba\u6587), https://web.archive.org/web/20250812175758/https://www.doc88.com/p-1028986964846.html?s=rel&id=2.  The boundary was estimated based on the locations of old/new ventilation shafts, as well as main industrial sites and has an area of 23.2 sq km. ",
+        "description": "Estimated Dongpang mine boundary.",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1117",
+        "Owners": "Jizhong Energy Resources Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jizhong Energy Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dongpang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%86%80%E4%B8%AD%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E5%BA%9E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Dongpang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 11, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.43202,
+          37.258104
+        ]
+      },
+      "properties": {
+        "id": "M1117.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-02-17 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "New Return Air Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1117",
+        "Owners": "Jizhong Energy Resources Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jizhong Energy Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dongpang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%86%80%E4%B8%AD%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E5%BA%9E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Dongpang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 11, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.459328,
+          37.23979
+        ]
+      },
+      "properties": {
+        "id": "M1117.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-02-17 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Main Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1117",
+        "Owners": "Jizhong Energy Resources Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jizhong Energy Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dongpang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%86%80%E4%B8%AD%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E5%BA%9E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Dongpang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 11, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.459321,
+          37.239154
+        ]
+      },
+      "properties": {
+        "id": "M1117.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-02-17 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Auxiliary Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1117",
+        "Owners": "Jizhong Energy Resources Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jizhong Energy Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dongpang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%86%80%E4%B8%AD%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E5%BA%9E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Dongpang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 11, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.429199,
+          37.219975
+        ]
+      },
+      "properties": {
+        "id": "M1117.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-02-17 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1117",
+        "Owners": "Jizhong Energy Resources Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jizhong Energy Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dongpang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%86%80%E4%B8%AD%E8%83%BD%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E5%BA%9E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Dongpang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 11, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(37.218238, 114.422286), L.latLng(37.259013, 114.485221));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([37.243212, 114.461098], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Dongpang Coal Mine Operating mine');
+	GEMMine.bindTooltip('Dongpang Coal Mine Operating mine', { permanent: true, direction: 'right'});

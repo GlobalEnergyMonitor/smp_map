@@ -1,0 +1,217 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.194051,
+              -21.437795
+            ],
+            [
+              148.18835,
+              -21.483068
+            ],
+            [
+              148.201258,
+              -21.492754
+            ],
+            [
+              148.205084,
+              -21.504767
+            ],
+            [
+              148.224916,
+              -21.508449
+            ],
+            [
+              148.233323,
+              -21.510044
+            ],
+            [
+              148.235774,
+              -21.507011
+            ],
+            [
+              148.238874,
+              -21.5092
+            ],
+            [
+              148.237544,
+              -21.510845
+            ],
+            [
+              148.367754,
+              -21.535497
+            ],
+            [
+              148.396115,
+              -21.540852
+            ],
+            [
+              148.451087,
+              -21.551216
+            ],
+            [
+              148.472933,
+              -21.555329
+            ],
+            [
+              148.469277,
+              -21.523737
+            ],
+            [
+              148.468676,
+              -21.518301
+            ],
+            [
+              148.467948,
+              -21.511988
+            ],
+            [
+              148.456114,
+              -21.50541
+            ],
+            [
+              148.435947,
+              -21.474359
+            ],
+            [
+              148.426825,
+              -21.436969
+            ],
+            [
+              148.382989,
+              -21.409115
+            ],
+            [
+              148.342201,
+              -21.43721
+            ],
+            [
+              148.351732,
+              -21.448683
+            ],
+            [
+              148.351748,
+              -21.485999
+            ],
+            [
+              148.351748,
+              -21.48645
+            ],
+            [
+              148.351725,
+              -21.506499
+            ],
+            [
+              148.351715,
+              -21.515043
+            ],
+            [
+              148.351713,
+              -21.516777
+            ],
+            [
+              148.351699,
+              -21.524694
+            ],
+            [
+              148.284971,
+              -21.511451
+            ],
+            [
+              148.268294,
+              -21.498711
+            ],
+            [
+              148.26831,
+              -21.443104
+            ],
+            [
+              148.254464,
+              -21.419722
+            ],
+            [
+              148.252806,
+              -21.419528
+            ],
+            [
+              148.247582,
+              -21.418918
+            ],
+            [
+              148.240234,
+              -21.418285
+            ],
+            [
+              148.219306,
+              -21.4604
+            ],
+            [
+              148.194051,
+              -21.437795
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0046.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-01-01 00:00:00",
+        "notes": "The boundary is the mining lease ML 4738 found in the Queensland Mining leases dataset https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27. This lease was also corroborated against the HCOC_ML4738 boundary shown in figure 4 on page 25 of the Hail Creek Environmental Assessment Report - Hail Creek Eastern Margin Extension Project from 1/2024 at https://web.archive.org/web/20240528022706/https://www.glencore.com.au/.rest/api/v1/documents/095ae370185b23a2d7b47779dc8b91a8/Hail+Creek+Eastern+Margin+Extension+Environmental+Assessment+Report.pdf.  This figure also shows mining is occuring in the eastern half of the lease and exploration is occurring in the western half of the lease. The mining lease was granted on 12/15/1977 and expires on 12/31/2040. The area of the mining lease is 204 sq km.",
+        "description": "Hail Creek coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0046",
+        "Owners": "Hail Creek Coal Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore PLC [85.00%]; Marubeni Corp [12.00%]; Sumitomo Corp [3.00%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Hail_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Hail Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 02, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(-21.555329, 148.18835), L.latLng(-21.409115, 148.472933));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([-21.484811, 148.37], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Hail Creek Coal Mine Operating mine');
+	GEMMine.bindTooltip('Hail Creek Coal Mine Operating mine', { permanent: true, direction: 'right'});

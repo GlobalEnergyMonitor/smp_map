@@ -1,0 +1,306 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.114116,
+              -32.632076
+            ],
+            [
+              151.113189,
+              -32.631953
+            ],
+            [
+              151.10694,
+              -32.631117
+            ],
+            [
+              151.102062,
+              -32.630465
+            ],
+            [
+              151.101738,
+              -32.630422
+            ],
+            [
+              151.101145,
+              -32.630343
+            ],
+            [
+              151.101145,
+              -32.615088
+            ],
+            [
+              151.092811,
+              -32.581754
+            ],
+            [
+              151.084478,
+              -32.581754
+            ],
+            [
+              151.067811,
+              -32.581755
+            ],
+            [
+              151.058595,
+              -32.581755
+            ],
+            [
+              151.051145,
+              -32.581755
+            ],
+            [
+              151.038305,
+              -32.581755
+            ],
+            [
+              151.034479,
+              -32.581755
+            ],
+            [
+              151.017812,
+              -32.581755
+            ],
+            [
+              151.017812,
+              -32.598422
+            ],
+            [
+              151.017812,
+              -32.615088
+            ],
+            [
+              151.017813,
+              -32.631755
+            ],
+            [
+              151.034479,
+              -32.631755
+            ],
+            [
+              151.034479,
+              -32.648422
+            ],
+            [
+              151.034479,
+              -32.656755
+            ],
+            [
+              151.051146,
+              -32.656755
+            ],
+            [
+              151.057253,
+              -32.656787
+            ],
+            [
+              151.074799,
+              -32.656729
+            ],
+            [
+              151.084139,
+              -32.656728
+            ],
+            [
+              151.092952,
+              -32.656727
+            ],
+            [
+              151.093585,
+              -32.656727
+            ],
+            [
+              151.100806,
+              -32.656726
+            ],
+            [
+              151.106231,
+              -32.656741
+            ],
+            [
+              151.1071,
+              -32.656743
+            ],
+            [
+              151.107706,
+              -32.656745
+            ],
+            [
+              151.109646,
+              -32.65675
+            ],
+            [
+              151.110481,
+              -32.652222
+            ],
+            [
+              151.114119,
+              -32.652735
+            ],
+            [
+              151.114208,
+              -32.652515
+            ],
+            [
+              151.114429,
+              -32.651966
+            ],
+            [
+              151.114868,
+              -32.651145
+            ],
+            [
+              151.1154,
+              -32.650363
+            ],
+            [
+              151.115885,
+              -32.649711
+            ],
+            [
+              151.117116,
+              -32.648485
+            ],
+            [
+              151.117698,
+              -32.64781
+            ],
+            [
+              151.118201,
+              -32.647091
+            ],
+            [
+              151.118685,
+              -32.646287
+            ],
+            [
+              151.120161,
+              -32.643356
+            ],
+            [
+              151.114069,
+              -32.641129
+            ],
+            [
+              151.114062,
+              -32.641126
+            ],
+            [
+              151.11397,
+              -32.641159
+            ],
+            [
+              151.112373,
+              -32.641736
+            ],
+            [
+              151.11258,
+              -32.640588
+            ],
+            [
+              151.113398,
+              -32.636058
+            ],
+            [
+              151.114116,
+              -32.632076
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0078.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-03-30 00:00:00",
+        "notes": "Page 1 of Forward Program \u2013 2024 to 2026 Mount Thorley Warkworth, published 3/30/2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/08/240322-FP-Yancoal-MTW_Final_Full.pdf, lists the mining leases for the : CCL753, CL219, ML1828, ML1752, ML1412, ML1590, ML1751 and ML1828.  Figure 2: Plan 2B: Mining and rehabilitation - Year 2 (2025) on page 11 shows the boundaries of the leases for both Warkworth and Mount Thorley mines. The boundary is the perimeter of all of the mining leases above. Mining lease polygons were extracted from the Geological Survey NSW GeoServer web feature service https://web.archive.org/web/20250427032655/https://www.resources.nsw.gov.au/geological-survey/products-and-data/gis-web-services.  The area of the boundary is approximately 63 sq km.",
+        "description": "Mt Thorley Warkworth mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0078",
+        "Owners": "Coal & Allied [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yancoal Australia Ltd [84.5%]; Nippon Steel [9.5%]; Mitsubishi Materials [6%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mt_Thorley_Warkworth_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Mt Thorley Warkworth Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.093174,
+          -32.606449
+        ]
+      },
+      "properties": {
+        "id": "M0078.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal handling and processing plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0078",
+        "Owners": "Coal & Allied [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yancoal Australia Ltd [84.5%]; Nippon Steel [9.5%]; Mitsubishi Materials [6%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mt_Thorley_Warkworth_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Mt Thorley Warkworth Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(-32.656787, 151.017812), L.latLng(-32.581754, 151.120161));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([-32.60700995, 151.0901636], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Mt Thorley Warkworth Coal Mine Proposed mine');
+	GEMMine.bindTooltip('Mt Thorley Warkworth Coal Mine Proposed mine', { permanent: true, direction: 'right'});
+	GEMMine = L.marker([-32.60700995, 151.0901636], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Mt Thorley Warkworth Coal Mine Operating mine');
+	GEMMine.bindTooltip('Mt Thorley Warkworth Coal Mine Operating mine', { permanent: true, direction: 'right'});

@@ -1,0 +1,211 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.392387,
+              23.693322
+            ],
+            [
+              86.391347,
+              23.69264
+            ],
+            [
+              86.388336,
+              23.692079
+            ],
+            [
+              86.386511,
+              23.69023
+            ],
+            [
+              86.386372,
+              23.686323
+            ],
+            [
+              86.388038,
+              23.682153
+            ],
+            [
+              86.388199,
+              23.680822
+            ],
+            [
+              86.388286,
+              23.679441
+            ],
+            [
+              86.388735,
+              23.677914
+            ],
+            [
+              86.391808,
+              23.674456
+            ],
+            [
+              86.394872,
+              23.670784
+            ],
+            [
+              86.40033,
+              23.671952
+            ],
+            [
+              86.405953,
+              23.673412
+            ],
+            [
+              86.407462,
+              23.676279
+            ],
+            [
+              86.405261,
+              23.677138
+            ],
+            [
+              86.401308,
+              23.678965
+            ],
+            [
+              86.396208,
+              23.681006
+            ],
+            [
+              86.392387,
+              23.693322
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2835.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2024-10-07 00:00:00",
+        "notes": "Bhowrah (South) Coal Mine is a hybrid mine utilizing both open-pit and underground mining methods. The reported mine area spans 5.72 sq km, though specific details about the mining boundary are not available. The polygons for both the open-pit and underground mining areas were derived from the map of water sampling locations in BCCL, as shown on page 28 of the 2024 Environmental Monitoring Report for BCCL, Cluster X, https://web.archive.org/web/20250327181355/https://www.bcclweb.in/environment/10Cluster%20X_061124.pdf, Oct 7, 2024 (from PDF metadata).\nThe area of the boundary is 2.4 sq km.",
+        "description": "Bhowrah (South) Coal Mine Open pit & Underground mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2835",
+        "Owners": "Bharat Coking Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coal India",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bhowrah_South_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Bhowrah (South) Coal Mine",
+        "Country / Area": "India",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.403433,
+              23.675984
+            ],
+            [
+              86.404171,
+              23.674631
+            ],
+            [
+              86.404182,
+              23.67463
+            ],
+            [
+              86.405186,
+              23.67454
+            ],
+            [
+              86.405962,
+              23.674795
+            ],
+            [
+              86.407041,
+              23.676274
+            ],
+            [
+              86.4064,
+              23.676535
+            ],
+            [
+              86.404985,
+              23.677206
+            ],
+            [
+              86.404117,
+              23.677595
+            ],
+            [
+              86.403433,
+              23.675984
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2835.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-03-21 00:00:00",
+        "notes": "This boundary represents the underground mining site, extracted from Google Earth Pro satellite imagery. The exact area and boundaries of the underground site are unknown, so they have been estimated based on the appearance of the mining site buildings and infrastructure.\n\n\n\n\n\n\n",
+        "description": "Bhowrah (South) Coal Mine underground mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M2835",
+        "Owners": "Bharat Coking Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coal India",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bhowrah_South_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Bhowrah (South) Coal Mine",
+        "Country / Area": "India",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(23.670784, 86.386372), L.latLng(23.693322, 86.407462));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([23.681905, 86.400533], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Bhowrah (South) Coal Mine Operating mine');
+	GEMMine.bindTooltip('Bhowrah (South) Coal Mine Operating mine', { permanent: true, direction: 'right'});

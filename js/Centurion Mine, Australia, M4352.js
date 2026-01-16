@@ -1,0 +1,433 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.001079,
+              -21.615125
+            ],
+            [
+              147.984426,
+              -21.615114
+            ],
+            [
+              147.984425,
+              -21.581781
+            ],
+            [
+              147.967759,
+              -21.581781
+            ],
+            [
+              147.967759,
+              -21.55565
+            ],
+            [
+              147.958876,
+              -21.558897
+            ],
+            [
+              147.949826,
+              -21.562216
+            ],
+            [
+              147.946441,
+              -21.554123
+            ],
+            [
+              147.92282,
+              -21.562763
+            ],
+            [
+              147.922819,
+              -21.573308
+            ],
+            [
+              147.925008,
+              -21.578206
+            ],
+            [
+              147.946454,
+              -21.625249
+            ],
+            [
+              147.951212,
+              -21.624464
+            ],
+            [
+              147.951159,
+              -21.646114
+            ],
+            [
+              147.951127,
+              -21.662531
+            ],
+            [
+              147.951116,
+              -21.665424
+            ],
+            [
+              147.951055,
+              -21.673518
+            ],
+            [
+              147.955181,
+              -21.669746
+            ],
+            [
+              147.95586,
+              -21.66971
+            ],
+            [
+              147.956993,
+              -21.67046
+            ],
+            [
+              147.959195,
+              -21.67048
+            ],
+            [
+              147.959572,
+              -21.670477
+            ],
+            [
+              147.962703,
+              -21.670402
+            ],
+            [
+              147.963633,
+              -21.671225
+            ],
+            [
+              147.966142,
+              -21.672064
+            ],
+            [
+              147.966148,
+              -21.672067
+            ],
+            [
+              147.966158,
+              -21.672072
+            ],
+            [
+              148.001093,
+              -21.689237
+            ],
+            [
+              148.001307,
+              -21.616189
+            ],
+            [
+              148.001101,
+              -21.616203
+            ],
+            [
+              148.001079,
+              -21.615125
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M4352.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-11-07 00:00:00",
+        "notes": "The original mining lease (ML 6949) and two extension mining leases (ML1790 and ML70495) comprise the total mining lease boundary. The three relevant mining leases under of Centurion Mine were confirmed in the executive summary on page ii of the Peabody document from Nov 7 2024, https://web.archive.org/web/2/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/Queensland%20Mining/North%20Goonyella%20Mine/Exploration-activities_ML1790_ML70495_EA-100658735-Centurion-North-Amendment-IR-Response.pdf, and the mining leases were identified and extracted from Figure 3.1 on page 28. The area of the mine boundary is 68 sq km.",
+        "description": "Centurion Mine total mining lease(s) boundary ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.969441,
+          -21.659763
+        ]
+      },
+      "properties": {
+        "id": "M4352.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-01-07 00:00:00",
+        "notes": "The shaft was identified in a Table 13-1 Ventilation Facilities 2024 of the Technical Report Summary of Centurion Mine, https://web.archive.org/save/https://minedocs.com/28/Centurion-TR-10152024.pdf, from Oct 15 2024. The approximate location of the shaft was identified in a Peabody layout map, North Goonyella Coal Mine: Segmenting of Multiple Zones, https://web.archive.org/save/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/Queensland%20Mining/North%20Goonyella%20Mine/NG-Map.pdf ), and the exact coordinates were extracted manually from Google Earth Pro imagery.",
+        "description": "H9 Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.986907,
+          -21.653371
+        ]
+      },
+      "properties": {
+        "id": "M4352.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2016, 2018, 2020, 2023",
+        "notes": "The shaft was identified in a Table 13-1 Ventilation Facilities 2024 of the Technical Report Summary of Centurion Mine, https://web.archive.org/save/https://minedocs.com/28/Centurion-TR-10152024.pdf, from Oct 15 2024. The approximate location of the shaft was identified in a Peabody layout map, North Goonyella Coal Mine: Segmenting of Multiple Zones, https://web.archive.org/save/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/Queensland%20Mining/North%20Goonyella%20Mine/NG-Map.pdf ), and the exact coordinates were extracted manually from Google Earth Pro imagery. Satellite imagery was compared over time, and the shaft appears to now be decomissioned or sealed. ",
+        "description": "H40 Shaft (possibly out of commission)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9579,
+          -21.662016
+        ]
+      },
+      "properties": {
+        "id": "M4352.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2023-01-07 00:00:00",
+        "notes": "The approximate location of the \"drift\" entry, or slope access, was reported in Table 3-1. Mine Facility Coordinates (GDA94 / MGA Zone 55) of the 2024 Technical Report Summary of Centurion Mine,  https://web.archive.org/web/20250624190227/https://minedocs.com/28/Centurion-TR-10152024.pdf, and the precise coordinates were then extracted using Google Earth Pro satellite imagery.",
+        "description": "\"Drift entry\" (personnel and materials)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.961852,
+          -21.66136
+        ]
+      },
+      "properties": {
+        "id": "M4352.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2023-01-07 00:00:00",
+        "notes": "The sloped production access shaft, or \"conveyor drift,\" was identified in a 2024 Technical Report Summary of Centurion Mine in Table 3-1. Mine Facility Coordinates (GDA94 / MGA Zone 55), https://web.archive.org/web/20250624190227/https://minedocs.com/28/Centurion-TR-10152024.pdf, and the approximate location was identified in a Peabody layout map of North Goonyella Coal Mine: Segmenting of Multiple Zones, https://web.archive.org/save/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/Queensland%20Mining/North%20Goonyella%20Mine/NG-Map.pdf. The exact coordinates were extracted using Google Earth Pro imagery.",
+        "description": "\"Conveyor drift,\" or sloped conveyor access",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9619,
+          -21.66946
+        ]
+      },
+      "properties": {
+        "id": "M4352.P5",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2024-02-23 00:00:00",
+        "notes": "The exact location of the CHPP was reported in Table 3-1. Mine Facility Coordinates (GDA94 / MGA Zone 55) of the  2024 Technical Report Summary of Centurion Mine, https://web.archive.org/save/https://www.sec.gov/Archives/edgar/data/1064728/000106472824000021/btu_20231231xex963.htm#ib4adb34088ab40218719f05e8df6e9be_10, and the converted coordinates were confirmed to be accurate using Google Earth Pro satellite imagery.",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.958109,
+          -21.661843
+        ]
+      },
+      "properties": {
+        "id": "M4352.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-01-01 00:00:00",
+        "notes": "The vent (or possible intake) was identified using visual analysis of Google Earth Pro imagery. The vent is adjacent to a reported \"drift entry,\" which appears to be a sloped access for workers and materials to enter the mine.",
+        "description": "Vent or intake 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.95808,
+          -21.662091
+        ]
+      },
+      "properties": {
+        "id": "M4352.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-01-01 00:00:00",
+        "notes": "The vent (or possible intake) was identified using visual analysis of Google Earth Pro imagery. The vent is adjacent to a reported \"drift entry,\" which appears to be a sloped access for workers and materials to enter the mine.",
+        "description": "Vent or intake 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.961883,
+          -21.66122
+        ]
+      },
+      "properties": {
+        "id": "M4352.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-01-01 00:00:00",
+        "notes": "The vent (or possible intake) is adjacent and likely attached to a sloped conveyor access to the mine. The vent was identified using visual analysis of Google Earth Pro imagery.",
+        "description": "Vent or intake 3",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4352",
+        "Owners": "Peabody Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Centurion_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Centurion Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 26, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(-21.689237, 147.922819), L.latLng(-21.554123, 148.001307));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([-21.65251828, 147.9823228], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Centurion Mine Operating mine');
+	GEMMine.bindTooltip('Centurion Mine Operating mine', { permanent: true, direction: 'right'});

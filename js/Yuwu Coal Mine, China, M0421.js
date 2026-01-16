@@ -1,0 +1,577 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.90649,
+              36.42612
+            ],
+            [
+              112.85089,
+              36.41604
+            ],
+            [
+              112.79531,
+              36.40531
+            ],
+            [
+              112.79751,
+              36.26215
+            ],
+            [
+              112.84498,
+              36.26551
+            ],
+            [
+              112.9085,
+              36.28286
+            ],
+            [
+              112.90649,
+              36.42612
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0421.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2013-03-20 00:00:00",
+        "notes": "The coordinates can be found in the Table 3 on page 6 from the document Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. - Ministry of Natural Resources (\u5c71\u897f\u6f5e\u5b89\u96c6\u56e2\u4f59\u543e\u7164\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8-\u56fd\u571f\u8d44\u6e90\u90e8) https://web.archive.org/web/20250706205011/https://www.doc88.com/p-67016284651600.html",
+        "description": "Yuwu Coal Mine Boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.855277,
+          36.326402
+        ]
+      },
+      "properties": {
+        "id": "M0421.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "It is named as The South Shaft of Wuyu Coal Mine\u4f59\u543e\u7164\u4e1a\u516c\u53f8(\u5357\u98ce\u4e95) in baidu map. It's refered to in Table 1-3 on page 20 of the Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. Mine geological environment protection and land reclamation plan, https://web.archive.org/web/20250717051715/https://www.doc88.com/p-74861629470327.html, but located visually from Google Earth Pro satellite imagery. ",
+        "description": "South Intake Air Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.853521,
+          36.325133
+        ]
+      },
+      "properties": {
+        "id": "M0421.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "Described in Table 1-3 on page 20 of the Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. Mine geological environment protection and land reclamation plan, https://web.archive.org/web/20250717051715/https://www.doc88.com/p-74861629470327.html, but located visually from Google Earth Pro satellite imagery. ",
+        "description": "South Vent",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.853825,
+          36.326995
+        ]
+      },
+      "properties": {
+        "id": "M0421.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "Described in the Changzhi City Administrative Approval Service Administration Documents Changshenguanpi\u30142024\u3015No.86, Changzhi Municipal Administrative Approval Service Administration's Review Opinion on the Energy Saving Report of the 5.8MW Distributed Gas Combined Heat and Power Project (Self-Generation and Self-Use) at Yuwu Coal Mine's Yuxin Wind Well, Lu'an Chemical Group, https://web.archive.org/web/20250711174739/https://www.changzhi.gov.cn/xxgkml/zfxxgkml/szfgzbm/czsxzspfwglj/czsrmzf/gzdt/tzgggs_3402/202402/P020240204407870812731.pdf, Feb 4 2024, as a  combined heat and power plant which is still under construction and will be put into operation in 2026.  Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas to electric generation plant 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.825727,
+          36.299999
+        ]
+      },
+      "properties": {
+        "id": "M0421.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "Described in Table 1-3 on page 20 of the Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. Mine geological environment protection and land reclamation plan, https://web.archive.org/web/20250717051715/https://www.doc88.com/p-74861629470327.html, but located visually from Google Earth Pro satellite imagery. ",
+        "description": "vent 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.877342,
+          36.388161
+        ]
+      },
+      "properties": {
+        "id": "M0421.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-03-31 00:00:00",
+        "notes": "Referred to in Yuxin Wind Well Project of Yuwu Coal Industry Company will be officially put into operation next year (\u4f59\u6b23\u98ce\u4e95\u8fdb\u98ce\u7acb\u4e95), March 31 2025 , https://web.archive.org/web/20250711191149/https://www.sohu.com/a/877777834_400764, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Yuxin Intake Air Shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.876789,
+          36.389612
+        ]
+      },
+      "properties": {
+        "id": "M0421.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "Described in Table 1-4 on page 21 of the Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. Mine geological environment protection and land reclamation plan, https://web.archive.org/web/20250717051715/https://www.doc88.com/p-74861629470327.html, but located visually from Google Earth Pro satellite imagery. ",
+        "description": "North(Yanzhuang) Intake Air Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.87585,
+          36.389793
+        ]
+      },
+      "properties": {
+        "id": "M0421.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "Described in Table 1-4 on page 21 of the Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. Mine geological environment protection and land reclamation plan, https://web.archive.org/web/20250717051715/https://www.doc88.com/p-74861629470327.html, but located visually from Google Earth Pro satellite imagery. ",
+        "description": "North(Yanzhuang) Vent",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.861884,
+          36.362675
+        ]
+      },
+      "properties": {
+        "id": "M0421.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-27 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible vent 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.855125,
+          36.361258
+        ]
+      },
+      "properties": {
+        "id": "M0421.P9",
+        "mine feature category": "other",
+        "mine feature subcategory": "coal storage",
+        "data source date": "2025-01-13 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal storage silo 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.857678,
+          36.364454
+        ]
+      },
+      "properties": {
+        "id": "M0421.P10",
+        "mine feature category": "other",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-01-13 00:00:00",
+        "notes": "Possible shaft identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible Main Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.859681,
+          36.365069
+        ]
+      },
+      "properties": {
+        "id": "M0421.P11",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2025-01-13 00:00:00",
+        "notes": "Possible shaft identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible Auxiliary Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.876898,
+          36.388919
+        ]
+      },
+      "properties": {
+        "id": "M0421.P12",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "regenerative thermal oxidizer (RTO)",
+        "data source date": "2023-03-27 00:00:00",
+        "notes": "Described in Environmental Protection Acceptance Opinion on the Completion of the Beifengjing Gas Comprehensive Utilization Demonstration Project of Yuwu Coal Industry, Lu'an Group, https://web.archive.org/save/http://qdhb.net.cn/profile/upload/2023/12/04/02d31ada-3520-4105-843e-913e5475cc64.pdf and identified visually from Google Earth Pro satellite imagery. \n",
+        "description": "Regenerative Thermal Oxidizers (RTOs)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.877388,
+          36.388421
+        ]
+      },
+      "properties": {
+        "id": "M0421.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "Described in Table 1-4 on page 21 of the Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. Mine geological environment protection and land reclamation plan, https://web.archive.org/web/20250717051715/https://www.doc88.com/p-74861629470327.html, but located visually from Google Earth Pro satellite imagery. ",
+        "description": "North gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.853933,
+          36.326946
+        ]
+      },
+      "properties": {
+        "id": "M0421.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-01-12 00:00:00",
+        "notes": "Described in Table 1-3 on page 20 of the Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd. Mine geological environment protection and land reclamation plan, https://web.archive.org/web/20250717051715/https://www.doc88.com/p-74861629470327.html, but located visually from Google Earth Pro satellite imagery. ",
+        "description": "South gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.857016,
+          36.361955
+        ]
+      },
+      "properties": {
+        "id": "M0421.P15",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-27 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "vent 3",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.827046,
+          36.300719
+        ]
+      },
+      "properties": {
+        "id": "M0421.P16",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-01-02 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Yuxin Ventilation Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0421",
+        "Owners": "Shanxi Lu'an Group Yuwu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Yuwu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E9%9B%86%E5%9B%A2%E4%BD%99%E5%90%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Yuwu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 17, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(36.26215, 112.79531), L.latLng(36.42612, 112.9085));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([36.364173, 112.858361], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Yuwu Coal Mine Operating mine');
+	GEMMine.bindTooltip('Yuwu Coal Mine Operating mine', { permanent: true, direction: 'right'});

@@ -1,0 +1,509 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.063697,
+              54.610069
+            ],
+            [
+              86.034531,
+              54.601736
+            ],
+            [
+              86.033697,
+              54.601181
+            ],
+            [
+              86.030086,
+              54.600069
+            ],
+            [
+              86.024531,
+              54.592844
+            ],
+            [
+              86.032864,
+              54.5859
+            ],
+            [
+              86.040086,
+              54.581456
+            ],
+            [
+              86.050642,
+              54.573678
+            ],
+            [
+              86.059811,
+              54.567011
+            ],
+            [
+              86.066478,
+              54.562289
+            ],
+            [
+              86.069533,
+              54.555622
+            ],
+            [
+              86.112311,
+              54.579514
+            ],
+            [
+              86.106756,
+              54.585625
+            ],
+            [
+              86.104533,
+              54.588958
+            ],
+            [
+              86.093144,
+              54.592847
+            ],
+            [
+              86.091756,
+              54.593681
+            ],
+            [
+              86.0837,
+              54.597569
+            ],
+            [
+              86.072311,
+              54.604792
+            ],
+            [
+              86.068975,
+              54.608403
+            ],
+            [
+              86.063697,
+              54.610069
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1343.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-12-04 00:00:00",
+        "notes": "This mine operates under the Nikitinsky subsoil land-use license \u041a\u0415\u041c02011\u0422\u042d, as identified through the Issuer\u2019s Quarterly Report for Q2 2021, PJSC Magnitogorsk Iron & Steel Works (MMK), page 43  mmk.ru/upload/iblock/c51/ocbvp8l9iiw14gmmcqqknwq38m8iygsn/qreport_2_2021.pdf, August 13, 2021.The license was issued on March 10, 2017, and is valid until July 16, 2030.The boundary was extracted from the NedraExpert portal at https://web.archive.org/web/20251204224940/https://www.nedraexpert.ru/subsurface/1144749394/1. The approximate area of the resulting boundary is 17 square km.",
+        "description": "Kostromovskaya mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.057983,
+          54.598715
+        ]
+      },
+      "properties": {
+        "id": "M1343.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.054899,
+          54.602386
+        ]
+      },
+      "properties": {
+        "id": "M1343.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.069343,
+          54.571118
+        ]
+      },
+      "properties": {
+        "id": "M1343.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-10-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.055529,
+          54.577886
+        ]
+      },
+      "properties": {
+        "id": "M1343.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.059502,
+          54.598661
+        ]
+      },
+      "properties": {
+        "id": "M1343.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.106547,
+          54.577568
+        ]
+      },
+      "properties": {
+        "id": "M1343.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.083597,
+          54.56412
+        ]
+      },
+      "properties": {
+        "id": "M1343.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-10-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.057347,
+          54.598442
+        ]
+      },
+      "properties": {
+        "id": "M1343.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.086311,
+          54.565607
+        ]
+      },
+      "properties": {
+        "id": "M1343.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-04-18 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. Also verified through the website of the \u201cModular Degasification Units Plant\u201d (\u041d\u041f\u041f \u00ab\u0417\u0430\u0432\u043e\u0434 \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0445 \u0434\u0435\u0433\u0430\u0437\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043e\u043a\u00bb), confirming the construction of a surface gas drainage station,zavodmdu.ru/ru/project_ZAO_Chahta_Kostromovskay_001.html.Clearly visible under construction in April 2020, fully installed by April\u2013May 2021, and removed by October 2023.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.056789,
+          54.585481
+        ]
+      },
+      "properties": {
+        "id": "M1343.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. Also verified through the website of the \u201cModular Degasification Units Plant\u201d (\u041d\u041f\u041f \u00ab\u0417\u0430\u0432\u043e\u0434 \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0445 \u0434\u0435\u0433\u0430\u0437\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043e\u043a\u00bb), confirming the construction of a surface gas drainage station,zavodmdu.ru/ru/project_ZAO_Chahta_Kostromovskay_001.html Objects M1343.P10 and M1343.P11 function as part of the same degasification system.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.057078,
+          54.586009
+        ]
+      },
+      "properties": {
+        "id": "M1343.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. Also verified through the website of the \u201cModular Degasification Units Plant\u201d (\u041d\u041f\u041f \u00ab\u0417\u0430\u0432\u043e\u0434 \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0445 \u0434\u0435\u0433\u0430\u0437\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043e\u043a\u00bb), confirming the construction of a surface gas drainage,zavodmdu.ru/ru/project_Shahta_Kosromskay_094.html. Objects M1343.P10 and M1343.P11 function as part of the same degasification system.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.062233,
+          54.579734
+        ]
+      },
+      "properties": {
+        "id": "M1343.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-04-18 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. The structure is first visible in the April 8, 2022 imagery. By 2023, the structure is no longer visible, indicating that the object was demolished and subsequently decommissioned between April 8, 2022 and 2023.",
+        "description": "Decommissioned gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1343",
+        "Owners": "MMK-Ugol LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kostromovskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kostromovskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(54.555622, 86.024531), L.latLng(54.610069, 86.112311));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([54.599044, 86.058569], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Kostromovskaya Coal Mine Operating mine');
+	GEMMine.bindTooltip('Kostromovskaya Coal Mine Operating mine', { permanent: true, direction: 'right'});

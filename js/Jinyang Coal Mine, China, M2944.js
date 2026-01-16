@@ -1,0 +1,247 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.237487,
+              36.726349
+            ],
+            [
+              112.2207,
+              36.726522
+            ],
+            [
+              112.219859,
+              36.673367
+            ],
+            [
+              112.242228,
+              36.673139
+            ],
+            [
+              112.242489,
+              36.689353
+            ],
+            [
+              112.237213,
+              36.709231
+            ],
+            [
+              112.237487,
+              36.726349
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2944.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2021-11-01 00:00:00",
+        "notes": "The boundary coordinates are found from Table 1-1-1 on page 4 of the document Shanxi Tongzhou Group Jinyang Coal Industry Co., Ltd Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan(\u5c71\u897f\u901a\u6d32\u96c6\u56e2\u664b\u6768\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) https://web.archive.org/web/20250722005223/https://www.doc88.com/p-90129339854573.html",
+        "description": "Jinyang coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2944",
+        "Owners": "Shanxi Tongzhou Group Jinyang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Tongzhou Coal and Coke Group [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E9%80%9A%E6%B4%B2%E9%9B%86%E5%9B%A2%E6%99%8B%E6%9D%A8%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 21, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.226349,
+          36.72317
+        ]
+      },
+      "properties": {
+        "id": "M2944.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2021-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2944",
+        "Owners": "Shanxi Tongzhou Group Jinyang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Tongzhou Coal and Coke Group [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E9%80%9A%E6%B4%B2%E9%9B%86%E5%9B%A2%E6%99%8B%E6%9D%A8%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 21, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.227265,
+          36.724605
+        ]
+      },
+      "properties": {
+        "id": "M2944.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2021-11-01 00:00:00",
+        "notes": "The main slope coordinates are found from Table 4-1-5 on page 104 of the document Shanxi Tongzhou Group Jinyang Coal Industry Co., Ltd Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan(\u5c71\u897f\u901a\u6d32\u96c6\u56e2\u664b\u6768\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) https://web.archive.org/web/20250722005223/https://www.doc88.com/p-90129339854573.html",
+        "description": "Main slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2944",
+        "Owners": "Shanxi Tongzhou Group Jinyang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Tongzhou Coal and Coke Group [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E9%80%9A%E6%B4%B2%E9%9B%86%E5%9B%A2%E6%99%8B%E6%9D%A8%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 21, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.226676,
+          36.724307
+        ]
+      },
+      "properties": {
+        "id": "M2944.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2021-11-01 00:00:00",
+        "notes": "The auxiliary slope coordinates are found from Table 4-1-5 on page 104 of the document Shanxi Tongzhou Group Jinyang Coal Industry Co., Ltd Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan(\u5c71\u897f\u901a\u6d32\u96c6\u56e2\u664b\u6768\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) https://web.archive.org/web/20250722005223/https://www.doc88.com/p-90129339854573.html",
+        "description": "Auxiliary slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2944",
+        "Owners": "Shanxi Tongzhou Group Jinyang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Tongzhou Coal and Coke Group [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E9%80%9A%E6%B4%B2%E9%9B%86%E5%9B%A2%E6%99%8B%E6%9D%A8%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 21, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.224239,
+          36.723943
+        ]
+      },
+      "properties": {
+        "id": "M2944.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-11-01 00:00:00",
+        "notes": "The return air slope coordinates are found from Table 4-1-5 on page 104 of the document Shanxi Tongzhou Group Jinyang Coal Industry Co., Ltd Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan(\u5c71\u897f\u901a\u6d32\u96c6\u56e2\u664b\u6768\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) https://web.archive.org/web/20250722005223/https://www.doc88.com/p-90129339854573.html",
+        "description": "return air slope 1",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2944",
+        "Owners": "Shanxi Tongzhou Group Jinyang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Tongzhou Coal and Coke Group [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E9%80%9A%E6%B4%B2%E9%9B%86%E5%9B%A2%E6%99%8B%E6%9D%A8%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 21, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.224521,
+          36.724025
+        ]
+      },
+      "properties": {
+        "id": "M2944.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-11-01 00:00:00",
+        "notes": "The return air slope coordinates are found from Table 4-1-5 on page 104 of the document Shanxi Tongzhou Group Jinyang Coal Industry Co., Ltd Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan(\u5c71\u897f\u901a\u6d32\u96c6\u56e2\u664b\u6768\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) https://web.archive.org/web/20250722005223/https://www.doc88.com/p-90129339854573.html",
+        "description": "return air slope 2",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2944",
+        "Owners": "Shanxi Tongzhou Group Jinyang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Tongzhou Coal and Coke Group [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E9%80%9A%E6%B4%B2%E9%9B%86%E5%9B%A2%E6%99%8B%E6%9D%A8%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 21, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(36.562088, 112.219859), L.latLng(36.726522, 112.467575));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([36.562088, 112.467575], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Jinyang Coal Mine Operating mine');
+	GEMMine.bindTooltip('Jinyang Coal Mine Operating mine', { permanent: true, direction: 'right'});

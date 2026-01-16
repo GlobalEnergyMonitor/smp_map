@@ -1,0 +1,167 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.919562,
+              39.584033
+            ],
+            [
+              117.965834,
+              39.563393
+            ],
+            [
+              117.981087,
+              39.572272
+            ],
+            [
+              117.986451,
+              39.581233
+            ],
+            [
+              117.995502,
+              39.603672
+            ],
+            [
+              118.047993,
+              39.668057
+            ],
+            [
+              118.054316,
+              39.68151
+            ],
+            [
+              118.01395,
+              39.671061
+            ],
+            [
+              118.010355,
+              39.664338
+            ],
+            [
+              117.992785,
+              39.658005
+            ],
+            [
+              117.961212,
+              39.649894
+            ],
+            [
+              117.957717,
+              39.649923
+            ],
+            [
+              117.957389,
+              39.634615
+            ],
+            [
+              117.9645,
+              39.635006
+            ],
+            [
+              117.948408,
+              39.608119
+            ],
+            [
+              117.946459,
+              39.593274
+            ],
+            [
+              117.919562,
+              39.584033
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1115.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-09-24 00:00:00",
+        "notes": "The boundary lines were drawn from Figure 3-34 on page 188 in the document Kailuan (Group) Co., Ltd. Donghuantuo Mining Branch Mine Geological Environment Protection and Land Reclamation Plan (\u5f00\u6ee6 (\u96c6\u56e2)\u6709\u9650\u8d23\u4efb\u516c\u53f8\u4e1c\u6b22\u5768\u77ff\u4e1a\u5206\u516c\u53f8 \u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) https://web.archive.org/web/20250519214838/http://nmgkyxh.com/js/kindeditor/attached/file/20181221/20181221095819_43093.pdf ",
+        "description": "Donghuantuo coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1115",
+        "Owners": "Kailuan Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Kailuan Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huantuodong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%BC%80%E6%BB%A6%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E4%B8%9C%E6%AC%A2%E5%9D%A8%E7%9F%BF%E4%B8%9A%E5%88%86%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Donghuantuo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 18, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.029318,
+          39.648837
+        ]
+      },
+      "properties": {
+        "id": "M1115.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-09-24 00:00:00",
+        "notes": "According to Figure 1-4 on page 19 in the document Kailuan (Group) Co., Ltd. Donghuantuo Mining Branch Mine Geological Environment Protection and Land Reclamation Plan (\u5f00\u6ee6 (\u96c6\u56e2)\u6709\u9650\u8d23\u4efb\u516c\u53f8\u4e1c\u6b22\u5768\u77ff\u4e1a\u5206\u516c\u53f8 \u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) https://web.archive.org/web/20250519214838/http://nmgkyxh.com/js/kindeditor/attached/file/20181221/20181221095819_43093.pdf , the ventilation site is 2.2 km east from the main mining boundary. Identified the 2 ventilation fans and the ventilation shaft.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1115",
+        "Owners": "Kailuan Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Kailuan Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huantuodong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%BC%80%E6%BB%A6%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E4%B8%9C%E6%AC%A2%E5%9D%A8%E7%9F%BF%E4%B8%9A%E5%88%86%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Donghuantuo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 18, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(39.563393, 117.919562), L.latLng(39.68151, 118.054316));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([39.647378, 118.002442], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Donghuantuo Coal Mine Operating mine');
+	GEMMine.bindTooltip('Donghuantuo Coal Mine Operating mine', { permanent: true, direction: 'right'});

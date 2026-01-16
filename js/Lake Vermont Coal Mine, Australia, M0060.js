@@ -1,0 +1,418 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.466874,
+              -22.465394
+            ],
+            [
+              148.444614,
+              -22.431459
+            ],
+            [
+              148.484478,
+              -22.402319
+            ],
+            [
+              148.484464,
+              -22.401751
+            ],
+            [
+              148.484462,
+              -22.398344
+            ],
+            [
+              148.467794,
+              -22.398354
+            ],
+            [
+              148.467782,
+              -22.381772
+            ],
+            [
+              148.434443,
+              -22.38179
+            ],
+            [
+              148.434431,
+              -22.365033
+            ],
+            [
+              148.4511,
+              -22.365023
+            ],
+            [
+              148.451089,
+              -22.348623
+            ],
+            [
+              148.436501,
+              -22.355861
+            ],
+            [
+              148.430154,
+              -22.359009
+            ],
+            [
+              148.432086,
+              -22.377255
+            ],
+            [
+              148.431505,
+              -22.378015
+            ],
+            [
+              148.431392,
+              -22.378765
+            ],
+            [
+              148.432343,
+              -22.380207
+            ],
+            [
+              148.421195,
+              -22.38482
+            ],
+            [
+              148.39505,
+              -22.393134
+            ],
+            [
+              148.394975,
+              -22.394127
+            ],
+            [
+              148.394956,
+              -22.396196
+            ],
+            [
+              148.393112,
+              -22.397776
+            ],
+            [
+              148.391543,
+              -22.398619
+            ],
+            [
+              148.390599,
+              -22.399527
+            ],
+            [
+              148.390123,
+              -22.400727
+            ],
+            [
+              148.389439,
+              -22.40211
+            ],
+            [
+              148.388657,
+              -22.404004
+            ],
+            [
+              148.388334,
+              -22.404871
+            ],
+            [
+              148.387686,
+              -22.406454
+            ],
+            [
+              148.386836,
+              -22.408356
+            ],
+            [
+              148.387155,
+              -22.410744
+            ],
+            [
+              148.386919,
+              -22.411992
+            ],
+            [
+              148.386463,
+              -22.413322
+            ],
+            [
+              148.386335,
+              -22.414247
+            ],
+            [
+              148.386202,
+              -22.415761
+            ],
+            [
+              148.386315,
+              -22.416661
+            ],
+            [
+              148.386368,
+              -22.417492
+            ],
+            [
+              148.386082,
+              -22.418762
+            ],
+            [
+              148.367759,
+              -22.424963
+            ],
+            [
+              148.367759,
+              -22.431774
+            ],
+            [
+              148.384425,
+              -22.431774
+            ],
+            [
+              148.384425,
+              -22.465108
+            ],
+            [
+              148.397008,
+              -22.465108
+            ],
+            [
+              148.397016,
+              -22.466152
+            ],
+            [
+              148.401092,
+              -22.468603
+            ],
+            [
+              148.40413,
+              -22.466629
+            ],
+            [
+              148.404228,
+              -22.466223
+            ],
+            [
+              148.406574,
+              -22.465215
+            ],
+            [
+              148.407329,
+              -22.465044
+            ],
+            [
+              148.4083,
+              -22.464999
+            ],
+            [
+              148.409242,
+              -22.465221
+            ],
+            [
+              148.410087,
+              -22.465666
+            ],
+            [
+              148.410762,
+              -22.466315
+            ],
+            [
+              148.411173,
+              -22.467134
+            ],
+            [
+              148.411414,
+              -22.468009
+            ],
+            [
+              148.411363,
+              -22.468911
+            ],
+            [
+              148.411082,
+              -22.469775
+            ],
+            [
+              148.410464,
+              -22.470472
+            ],
+            [
+              148.409474,
+              -22.471127
+            ],
+            [
+              148.407648,
+              -22.471564
+            ],
+            [
+              148.406689,
+              -22.471419
+            ],
+            [
+              148.405802,
+              -22.47105
+            ],
+            [
+              148.405081,
+              -22.470444
+            ],
+            [
+              148.40442,
+              -22.469782
+            ],
+            [
+              148.403564,
+              -22.469354
+            ],
+            [
+              148.402594,
+              -22.469297
+            ],
+            [
+              148.402402,
+              -22.469379
+            ],
+            [
+              148.401711,
+              -22.469672
+            ],
+            [
+              148.401092,
+              -22.470043
+            ],
+            [
+              148.401092,
+              -22.470303
+            ],
+            [
+              148.401104,
+              -22.472122
+            ],
+            [
+              148.401092,
+              -22.485771
+            ],
+            [
+              148.401092,
+              -22.490118
+            ],
+            [
+              148.416133,
+              -22.492234
+            ],
+            [
+              148.444325,
+              -22.48859
+            ],
+            [
+              148.460706,
+              -22.480142
+            ],
+            [
+              148.46115,
+              -22.479913
+            ],
+            [
+              148.466995,
+              -22.476898
+            ],
+            [
+              148.466874,
+              -22.465394
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0060.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Figure 2.1 Places affected by the project, page 3, of EIS Assessment Report for the Lake Vermont Meadowbrook Project from 4/2024, \nhttps://web.archive.org/web/2/https://www.qld.gov.au/__data/assets/pdf_file/0035/477485/lake-vermont-meadowbrook-eis-assessment-report.pdf, describes the existing Lake Vermont mining leases ML 70331, ML 70477 and ML 70528, the outer perimeter of which comprise the extracted mine boundary. This document also describes the mining lease application for the mine extension, known as Meadowbrook Project. It does not appear that this request for expansion has yet been approved. The mining license for the Meadowbrook expansion is ML 700080 and is not included in this boundary. Ongoing information about this expansion can be found at https://web.archive.org/web/2/https://www.qld.gov.au/environment/management/environmental/eis-process/projects/completed/lake-vermont-meadowbrook-project. The boundary is the outer perimeter of the mining leases ML 70331, ML 70477 and ML 70582. The area of the boundary is approximately 91 sq km. Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).\n\n",
+        "description": "Lake Vermont mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0060",
+        "Owners": "Jellinbah Group Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jellinbah [70%]; Marubeni [10%]; Sojitz [10%]; AMCI [10%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Lake_Vermont_Coal_Project",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Lake Vermont Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 08, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.405611,
+          -22.46368
+        ]
+      },
+      "properties": {
+        "id": "M0060.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "preparation and cleaning facility",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0060",
+        "Owners": "Jellinbah Group Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jellinbah [70%]; Marubeni [10%]; Sojitz [10%]; AMCI [10%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Lake_Vermont_Coal_Project",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Lake Vermont Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 08, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(-22.492234, 148.367759), L.latLng(-22.348623, 148.484478));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([-22.3894938, 148.3769527], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Lake Vermont Coal Mine Proposed mine');
+	GEMMine.bindTooltip('Lake Vermont Coal Mine Proposed mine', { permanent: true, direction: 'right'});
+	GEMMine = L.marker([-22.4611726, 148.4056045], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Lake Vermont Coal Mine Operating mine');
+	GEMMine.bindTooltip('Lake Vermont Coal Mine Operating mine', { permanent: true, direction: 'right'});

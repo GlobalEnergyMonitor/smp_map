@@ -1,0 +1,267 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.136436,
+              36.786296
+            ],
+            [
+              113.091456,
+              36.763355
+            ],
+            [
+              113.069644,
+              36.741303
+            ],
+            [
+              113.084584,
+              36.732843
+            ],
+            [
+              113.092666,
+              36.733692
+            ],
+            [
+              113.113446,
+              36.752651
+            ],
+            [
+              113.11893,
+              36.752553
+            ],
+            [
+              113.109212,
+              36.765654
+            ],
+            [
+              113.138555,
+              36.773869
+            ],
+            [
+              113.143385,
+              36.778422
+            ],
+            [
+              113.13692,
+              36.77953
+            ],
+            [
+              113.136436,
+              36.786296
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2184.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2012-02-01 00:00:00",
+        "notes": "The coordinates are found in Table 1-1 mine field coordinate table, on page 5, from the document Emergency Response Plan for Work Safety Accidents of Shanxi Wangjiayu Coal Industry Co., Ltd. (\u5c71\u897f\u738b\u5bb6\u5cea\u7164\u4e1a\u6709\u9650\u516c\u53f8\u751f\u4ea7\u5b89\u5168\u4e8b\u6545\u5e94\u6025\u9884\u6848), https://web.archive.org/web/20250612230922/https://www.doc88.com/p-0833766912266.html.",
+        "description": "Wangjiayu coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2184",
+        "Owners": "Shanxi Wangjiayu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Changzhi County Branch of Changzhi Xinjuyuan Materials Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjiayu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E7%8E%8B%E5%AE%B6%E5%B3%AA%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Wangjiayu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.104195,
+          36.745399
+        ]
+      },
+      "properties": {
+        "id": "M2184.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-10-30 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2184",
+        "Owners": "Shanxi Wangjiayu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Changzhi County Branch of Changzhi Xinjuyuan Materials Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjiayu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E7%8E%8B%E5%AE%B6%E5%B3%AA%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Wangjiayu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.107383,
+          36.76255
+        ]
+      },
+      "properties": {
+        "id": "M2184.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-10-20 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "main shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2184",
+        "Owners": "Shanxi Wangjiayu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Changzhi County Branch of Changzhi Xinjuyuan Materials Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjiayu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E7%8E%8B%E5%AE%B6%E5%B3%AA%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Wangjiayu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.107449,
+          36.762011
+        ]
+      },
+      "properties": {
+        "id": "M2184.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "coal storage",
+        "data source date": "2019-10-20 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal storage silos",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2184",
+        "Owners": "Shanxi Wangjiayu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Changzhi County Branch of Changzhi Xinjuyuan Materials Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjiayu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E7%8E%8B%E5%AE%B6%E5%B3%AA%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Wangjiayu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.099994,
+          36.748928
+        ]
+      },
+      "properties": {
+        "id": "M2184.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "coal storage",
+        "data source date": "2021-10-30 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal storage yard",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2184",
+        "Owners": "Shanxi Wangjiayu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Changzhi County Branch of Changzhi Xinjuyuan Materials Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjiayu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E7%8E%8B%E5%AE%B6%E5%B3%AA%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Wangjiayu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.105891,
+          36.746719
+        ]
+      },
+      "properties": {
+        "id": "M2184.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2021-10-30 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2184",
+        "Owners": "Shanxi Wangjiayu Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Changzhi County Branch of Changzhi Xinjuyuan Materials Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjiayu_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E7%8E%8B%E5%AE%B6%E5%B3%AA%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Wangjiayu Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(36.732843, 113.069644), L.latLng(36.786296, 113.143385));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([36.745851, 113.104399], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Wangjiayu Coal Mine Operating mine');
+	GEMMine.bindTooltip('Wangjiayu Coal Mine Operating mine', { permanent: true, direction: 'right'});

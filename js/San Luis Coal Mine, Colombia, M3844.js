@@ -1,0 +1,140 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.65978,
+              6.599763
+            ],
+            [
+              -73.646681,
+              6.595547
+            ],
+            [
+              -73.629068,
+              6.623635
+            ],
+            [
+              -73.619445,
+              6.644631
+            ],
+            [
+              -73.619001,
+              6.645435
+            ],
+            [
+              -73.635045,
+              6.653986
+            ],
+            [
+              -73.628903,
+              6.668118
+            ],
+            [
+              -73.610386,
+              6.660898
+            ],
+            [
+              -73.602674,
+              6.687357
+            ],
+            [
+              -73.5787,
+              6.694286
+            ],
+            [
+              -73.557243,
+              6.732964
+            ],
+            [
+              -73.58402,
+              6.745904
+            ],
+            [
+              -73.624181,
+              6.696808
+            ],
+            [
+              -73.634795,
+              6.670415
+            ],
+            [
+              -73.641591,
+              6.655954
+            ],
+            [
+              -73.647503,
+              6.638137
+            ],
+            [
+              -73.65978,
+              6.599763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M3844.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2022-08-29 00:00:00",
+        "notes": "The boundary was extracted from a Global Forest Watch (GFW) data set of mining titles in Colombia, which includes shapefiles and proprietary information for the mining title areas in \"Columbia Mining Titles,\" last accessed: Oct. 2, 2025 https://web.archive.org/save/https://data.globalforestwatch.org/datasets/colombia-mining-titles/explore?location=11.275605%2C-86.829278%2C9.97. The GFW data set was opened in Google Earth Pro and the boundary polygons were first identified by location and ownership. Because the GFW data set did not include title numbers, the mining title boundaries were cross-referenced using CoMiMo's interactive map, using the data layer \"T\u00edtulos mineros\" (\"mining titles\") to confirm the location and boundary shapes of the four relevant mining titles: 092-91 (the original mining lease), FEC-131, 029-91, and 065-92. The mining titles were accessible by selecting the data layer \"T\u00edtulos mineros\" from the layers menu (\"Capas\") of the CoMiMo map, last accessed: Oct. 2, 2025 https://web.archive.org/save/https://comimo.sig-gis.com/. The original mining title number 092-91 was also confirmed in a 2025 report by Colombia's national mining agency, \"Agencia Nacional de Miner\u00eda\", \"AUTO PAR BUCARAMANGA No. 0300,\" June 3, 2025 https://web.archive.org/web/20250725172709/https://www.anm.gov.co/sites/default/files/DocumentosAnm/AUTO-PARB-0300-EXP-092-91-2025.pdf. The boundary is the perimeter of the licensed mining boundaries, including the original contracted mining boundary (No. 092-91) and the expansion mining boundaries (065-92, 029-91 and FEC-131). The area of the mine boundary is approximately 49 square km.\n\n",
+        "description": "San Luis coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3844",
+        "Owners": "Carbonera San Luis S.A.S.; Centromin S.A.S.; Mincar S.A.S ; San Luis Coal SA",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "San Luis Coal S.A.",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/San_Luis_Coal_Mine_(Colombia)",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "San Luis Coal Mine",
+        "Country / Area": "Colombia",
+        "Last researched": "Oct 02, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(6.595547, -73.65978), L.latLng(6.745904, -73.516186));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([6.69674, -73.516186], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('San Luis Coal Mine Operating mine');
+	GEMMine.bindTooltip('San Luis Coal Mine Operating mine', { permanent: true, direction: 'right'});
+	GEMMine = L.marker([6.71603597, -73.57893771], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('San Luis Coal Mine Operating mine');
+	GEMMine.bindTooltip('San Luis Coal Mine Operating mine', { permanent: true, direction: 'right'});

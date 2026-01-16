@@ -1,0 +1,365 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.950546,
+              37.800556
+            ],
+            [
+              -81.950619,
+              37.800303
+            ],
+            [
+              -81.950854,
+              37.800544
+            ],
+            [
+              -81.950861,
+              37.8003
+            ],
+            [
+              -81.951106,
+              37.800476
+            ],
+            [
+              -81.951437,
+              37.800289
+            ],
+            [
+              -81.951334,
+              37.800076
+            ],
+            [
+              -81.951582,
+              37.800373
+            ],
+            [
+              -81.951583,
+              37.789737
+            ],
+            [
+              -81.954169,
+              37.789709
+            ],
+            [
+              -81.954226,
+              37.794343
+            ],
+            [
+              -81.955735,
+              37.79435
+            ],
+            [
+              -81.956317,
+              37.794112
+            ],
+            [
+              -81.956153,
+              37.789683
+            ],
+            [
+              -81.957135,
+              37.789675
+            ],
+            [
+              -81.95712,
+              37.787879
+            ],
+            [
+              -81.951829,
+              37.787919
+            ],
+            [
+              -81.951846,
+              37.787653
+            ],
+            [
+              -81.957473,
+              37.787605
+            ],
+            [
+              -81.957799,
+              37.79222
+            ],
+            [
+              -81.964243,
+              37.792168
+            ],
+            [
+              -81.964074,
+              37.791722
+            ],
+            [
+              -81.964524,
+              37.791721
+            ],
+            [
+              -81.964639,
+              37.791228
+            ],
+            [
+              -81.964406,
+              37.790931
+            ],
+            [
+              -81.964093,
+              37.791013
+            ],
+            [
+              -81.964104,
+              37.790568
+            ],
+            [
+              -81.963769,
+              37.790582
+            ],
+            [
+              -81.964167,
+              37.79035
+            ],
+            [
+              -81.959765,
+              37.790381
+            ],
+            [
+              -81.95972,
+              37.787748
+            ],
+            [
+              -81.96012,
+              37.787591
+            ],
+            [
+              -81.960106,
+              37.785786
+            ],
+            [
+              -81.95492,
+              37.785821
+            ],
+            [
+              -81.954914,
+              37.785596
+            ],
+            [
+              -81.954155,
+              37.785827
+            ],
+            [
+              -81.94636,
+              37.785888
+            ],
+            [
+              -81.943307,
+              37.781068
+            ],
+            [
+              -81.94334,
+              37.781337
+            ],
+            [
+              -81.943053,
+              37.781136
+            ],
+            [
+              -81.943105,
+              37.781425
+            ],
+            [
+              -81.942837,
+              37.781234
+            ],
+            [
+              -81.94274,
+              37.781557
+            ],
+            [
+              -81.942523,
+              37.781316
+            ],
+            [
+              -81.942497,
+              37.781642
+            ],
+            [
+              -81.945937,
+              37.787718
+            ],
+            [
+              -81.948985,
+              37.787674
+            ],
+            [
+              -81.949002,
+              37.788215
+            ],
+            [
+              -81.949283,
+              37.788234
+            ],
+            [
+              -81.949526,
+              37.79718
+            ],
+            [
+              -81.949094,
+              37.799634
+            ],
+            [
+              -81.949331,
+              37.800275
+            ],
+            [
+              -81.949578,
+              37.800091
+            ],
+            [
+              -81.949818,
+              37.800457
+            ],
+            [
+              -81.950065,
+              37.800299
+            ],
+            [
+              -81.950137,
+              37.800548
+            ],
+            [
+              -81.950297,
+              37.8003
+            ],
+            [
+              -81.950206,
+              37.800526
+            ],
+            [
+              -81.950546,
+              37.800556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1617.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "Unclear - according to https://web.archive.org/web/2/https://www.wvgs.wvnet.edu/www/coal/cbmp/coalims.html, \"Updates to the data set occur as new data becomes available.\"'",
+        "notes": "The boundary is the underground mining area polygon extracted from the West Virginia Geological and Economic Survey (WVGES) resource at https://web.archive.org/web/2/https://atlas.wvgs.wvnet.edu/arcgis/rest/services/Coal_Web_Mercator/All_Mining_WM/MapServer. This resource was filtered for mine_name = LYNN BRANCH  NO 2 MINE, and the resulting polygon was simplified using distance-based simplification with a tolerance of 25m.  The area of this boundary is 1 sq km. The mine mines the Number 2 Gas seam.\n\nImportant note: the following mine boundaries overlap the mine boundary and care should be taken when attempting methane source attribution: SUPERIOR POCA NO 2 (Number 6 Block seam), BELVA NO 5F (Coalburg seam), NO. 8-C MINE (Eagle seam)\n",
+        "description": "Lynn Branch No. 2 mine detailed underground mining area boundary ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1617",
+        "Owners": "Lynn Branch Coal Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources Inc",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Lynn_Branch_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Lynn Branch No. 2 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 18, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.942398,
+          37.781347
+        ]
+      },
+      "properties": {
+        "id": "M1617.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1617",
+        "Owners": "Lynn Branch Coal Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources Inc",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Lynn_Branch_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Lynn Branch No. 2 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 18, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.942331,
+          37.780803
+        ]
+      },
+      "properties": {
+        "id": "M1617.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible coal mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1617",
+        "Owners": "Lynn Branch Coal Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources Inc",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Lynn_Branch_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Lynn Branch No. 2 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 18, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(37.771729, -81.964639), L.latLng(37.800556, -81.931004));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([37.771729, -81.931004], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Lynn Branch No. 2 Coal Mine Operating mine');
+	GEMMine.bindTooltip('Lynn Branch No. 2 Coal Mine Operating mine', { permanent: true, direction: 'right'});

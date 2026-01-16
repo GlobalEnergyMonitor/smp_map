@@ -1,0 +1,265 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.160069,
+              55.772872
+            ],
+            [
+              86.135903,
+              55.771206
+            ],
+            [
+              86.113678,
+              55.771206
+            ],
+            [
+              86.118956,
+              55.754817
+            ],
+            [
+              86.122569,
+              55.741483
+            ],
+            [
+              86.137569,
+              55.729539
+            ],
+            [
+              86.154236,
+              55.69815
+            ],
+            [
+              86.166183,
+              55.691206
+            ],
+            [
+              86.17285,
+              55.692317
+            ],
+            [
+              86.183128,
+              55.687594
+            ],
+            [
+              86.187572,
+              55.694261
+            ],
+            [
+              86.217294,
+              55.698706
+            ],
+            [
+              86.218961,
+              55.698983
+            ],
+            [
+              86.208961,
+              55.715094
+            ],
+            [
+              86.188403,
+              55.739539
+            ],
+            [
+              86.185625,
+              55.738983
+            ],
+            [
+              86.179792,
+              55.751483
+            ],
+            [
+              86.161181,
+              55.77315
+            ],
+            [
+              86.160069,
+              55.772872
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0833.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-12-08 00:00:00",
+        "notes": "This mine operates under subsoil land-use license \u041a\u0415\u041c 14883 \u0422\u042d, as identified through the Unified State Register of Legal Entities (\u0415\u0434\u0438\u043d\u044b\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0440\u0435\u0435\u0441\u0442\u0440 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446, \u0415\u0413\u0420\u042e\u041b), using the company\u2019s INN (Taxpayer Identification Number, \u0418\u041d\u041d), page 9,https://www.archive.org/details/20251208_20251208_1447. The license was issued on March 16, 2010, and is valid until December 31, 2025. The boundary was extracted from the NedraExpert portal at https://web.archive.org/web/20251208145734/https://www.nedraexpert.ru/license/137678?ysclid=mix986clhr848741130.The approximate area of the resulting boundary is 33 square km.",
+        "description": "Pervomayskaya mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0833",
+        "Owners": "Severny Kuzbass Coal Company JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Severny Kuzbass Coal Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Pervomayskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Pervomayskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.190664,
+          55.72226
+        ]
+      },
+      "properties": {
+        "id": "M0833.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-05-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0833",
+        "Owners": "Severny Kuzbass Coal Company JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Severny Kuzbass Coal Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Pervomayskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Pervomayskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.172509,
+          55.721809
+        ]
+      },
+      "properties": {
+        "id": "M0833.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-05-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0833",
+        "Owners": "Severny Kuzbass Coal Company JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Severny Kuzbass Coal Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Pervomayskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Pervomayskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.172187,
+          55.721133
+        ]
+      },
+      "properties": {
+        "id": "M0833.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-05-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0833",
+        "Owners": "Severny Kuzbass Coal Company JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Severny Kuzbass Coal Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Pervomayskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Pervomayskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.178383,
+          55.740037
+        ]
+      },
+      "properties": {
+        "id": "M0833.P5",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2025-07-25 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.It is also possible that this object represents a ventilation shaft.",
+        "description": "Possible mine entrance or exit",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0833",
+        "Owners": "Severny Kuzbass Coal Company JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Severny Kuzbass Coal Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Pervomayskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Pervomayskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(55.687594, 86.113678), L.latLng(55.77315, 86.218961));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([55.721116, 86.171951], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Pervomayskaya Coal Mine Operating mine');
+	GEMMine.bindTooltip('Pervomayskaya Coal Mine Operating mine', { permanent: true, direction: 'right'});

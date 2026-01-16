@@ -1,0 +1,455 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.026459,
+              50.136655
+            ],
+            [
+              19.062655,
+              50.138525
+            ],
+            [
+              19.06204,
+              50.143623
+            ],
+            [
+              19.069827,
+              50.144116
+            ],
+            [
+              19.112588,
+              50.162261
+            ],
+            [
+              19.131591,
+              50.177043
+            ],
+            [
+              19.155954,
+              50.177416
+            ],
+            [
+              19.1639,
+              50.179661
+            ],
+            [
+              19.164807,
+              50.181519
+            ],
+            [
+              19.159928,
+              50.188858
+            ],
+            [
+              19.156098,
+              50.191988
+            ],
+            [
+              19.149614,
+              50.199313
+            ],
+            [
+              19.150441,
+              50.206361
+            ],
+            [
+              19.148647,
+              50.206274
+            ],
+            [
+              19.146155,
+              50.208901
+            ],
+            [
+              19.128346,
+              50.213299
+            ],
+            [
+              19.116914,
+              50.207841
+            ],
+            [
+              19.104114,
+              50.211627
+            ],
+            [
+              19.100007,
+              50.199619
+            ],
+            [
+              19.067626,
+              50.199956
+            ],
+            [
+              19.059558,
+              50.207264
+            ],
+            [
+              19.049064,
+              50.189615
+            ],
+            [
+              19.039897,
+              50.183992
+            ],
+            [
+              19.032133,
+              50.181932
+            ],
+            [
+              19.035474,
+              50.178925
+            ],
+            [
+              19.03607,
+              50.175819
+            ],
+            [
+              19.026037,
+              50.141998
+            ],
+            [
+              19.019955,
+              50.138776
+            ],
+            [
+              19.026459,
+              50.136655
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1472.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-03-10 00:00:00",
+        "notes": "The boundary was extracted from the mining area for the mine, shown in the PGG S.A. MINES MAP at Polska Grupa G\u00f3rnicza SA geoportal: https://web.archive.org/web/20241219034735/https://korporacja.pgg.pl/likwidacja-szkod-gorniczych/mapa/index.html, updated on March 10 2025. The area of the boundary is approximately 46 sq km.",
+        "description": "KWK Mys\u0142owice-Weso\u0142a Coal Mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.093127,
+          50.179089
+        ]
+      },
+      "properties": {
+        "id": "M1472.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-13 00:00:00",
+        "notes": "The location was extracted from Fig. 7 Map of the location of the PGG and SRK mine shafts - GZW, middle part, on page 13 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. Also, the PGG website https://web.archive.org/web/20250707224919/https://www.pgg.pl/strefa-korporacyjna/firma/kopalnie/7-kwk-myslowice-wesola  describes the shaft as an intake shaft.",
+        "description": "Bronis\u0142aw shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.093843,
+          50.179107
+        ]
+      },
+      "properties": {
+        "id": "M1472.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-13 00:00:00",
+        "notes": "The location was extracted from Fig. 7 Map of the location of the PGG and SRK mine shafts - GZW, middle part, on page 13 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. Also, the PGG website https://web.archive.org/web/20250707224919/https://www.pgg.pl/strefa-korporacyjna/firma/kopalnie/7-kwk-myslowice-wesola  describes the shaft as an intake shaft.",
+        "description": "Piotr shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.096404,
+          50.179058
+        ]
+      },
+      "properties": {
+        "id": "M1472.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-13 00:00:00",
+        "notes": "The location was extracted from Fig. 7 Map of the location of the PGG and SRK mine shafts - GZW, middle part, on page 13 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. Also, the PGG website https://web.archive.org/web/20250707224919/https://www.pgg.pl/strefa-korporacyjna/firma/kopalnie/7-kwk-myslowice-wesola  describes the shaft as an intake shaft.",
+        "description": "Karol shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.091103,
+          50.195763
+        ]
+      },
+      "properties": {
+        "id": "M1472.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-03-08 00:00:00",
+        "notes": "The location was extracted from Fig. 7 Map of the location of the PGG and SRK mine shafts - GZW, middle part, on page 13 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. Also, the PGG website https://web.archive.org/web/20250707224919/https://www.pgg.pl/strefa-korporacyjna/firma/kopalnie/7-kwk-myslowice-wesola  describes the shaft as an exhaust shaft.",
+        "description": "Wac\u0142aw shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.091055,
+          50.195396
+        ]
+      },
+      "properties": {
+        "id": "M1472.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-04-13 00:00:00",
+        "notes": "Identified visually with Google Earth Pro satellite imagery. The PGG website https://web.archive.org/web/20250707224919/https://www.pgg.pl/strefa-korporacyjna/firma/kopalnie/7-kwk-myslowice-wesola describes the shaft as an exhaust shaft.",
+        "description": "Vent",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.090392,
+          50.196598
+        ]
+      },
+      "properties": {
+        "id": "M1472.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-03-08 00:00:00",
+        "notes": "The location was extracted from Fig. 7 Map of the location of the PGG and SRK mine shafts - GZW, middle part, on page 13 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. Also, the PGG website https://web.archive.org/web/20250707224919/https://www.pgg.pl/strefa-korporacyjna/firma/kopalnie/7-kwk-myslowice-wesola  describes the shaft as an exhaust shaft.",
+        "description": "Wentylacyjny II shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.090434,
+          50.19731
+        ]
+      },
+      "properties": {
+        "id": "M1472.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-03-08 00:00:00",
+        "notes": "Identified visually with Google Earth Pro satellite imagery. The PGG website https://web.archive.org/web/20250707224919/https://www.pgg.pl/strefa-korporacyjna/firma/kopalnie/7-kwk-myslowice-wesola describes the shaft as an exhaust shaft.",
+        "description": "Wentylacyjny II vent shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.104904,
+          50.182355
+        ]
+      },
+      "properties": {
+        "id": "M1472.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "combined heat and power plant",
+        "data source date": "2025-04-13 00:00:00",
+        "notes": "Identified visually with Google Earth Pro satellite imagery. Reporting, https://web.archive.org/web/20250512145352/https://ferox.pl/dalkia-polska-energia-zmodernizuje-jednostke-kogeneracyjna-zakladu-wesola-w-myslowicach/,  March 4, 2021 describes the CHP plant has a capacity of 8.2 MW.",
+        "description": "Cogeneration plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.093394,
+          50.177445
+        ]
+      },
+      "properties": {
+        "id": "M1472.P9",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2025-04-13 00:00:00",
+        "notes": "Identified visually with Google Earth Pro satellite imagery.",
+        "description": "Coal processing plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1472",
+        "Owners": "Polska Grupa G\u00f3rnicza SA [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mys\u0142owice-Weso\u0142a_coal_mines#Project_Details",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK Mys\u0142owice-Weso\u0142a Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(50.136655, 19.019955), L.latLng(50.213299, 19.164807));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([50.1811, 19.0937], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('KWK Mysłowice-Wesoła Coal Mine Operating mine');
+	GEMMine.bindTooltip('KWK Mysłowice-Wesoła Coal Mine Operating mine', { permanent: true, direction: 'right'});

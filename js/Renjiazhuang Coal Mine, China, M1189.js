@@ -1,0 +1,323 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.507558,
+              38.255477
+            ],
+            [
+              106.504547,
+              38.256375
+            ],
+            [
+              106.503884,
+              38.258637
+            ],
+            [
+              106.506646,
+              38.268797
+            ],
+            [
+              106.506212,
+              38.271575
+            ],
+            [
+              106.505153,
+              38.272526
+            ],
+            [
+              106.502775,
+              38.272027
+            ],
+            [
+              106.50109,
+              38.269501
+            ],
+            [
+              106.498733,
+              38.258517
+            ],
+            [
+              106.494878,
+              38.249378
+            ],
+            [
+              106.496042,
+              38.248312
+            ],
+            [
+              106.496171,
+              38.240927
+            ],
+            [
+              106.492696,
+              38.227793
+            ],
+            [
+              106.485991,
+              38.217969
+            ],
+            [
+              106.483651,
+              38.216803
+            ],
+            [
+              106.483332,
+              38.218412
+            ],
+            [
+              106.476553,
+              38.224846
+            ],
+            [
+              106.473795,
+              38.226206
+            ],
+            [
+              106.474688,
+              38.222831
+            ],
+            [
+              106.478546,
+              38.219043
+            ],
+            [
+              106.479081,
+              38.214213
+            ],
+            [
+              106.4776,
+              38.215707
+            ],
+            [
+              106.47754,
+              38.212526
+            ],
+            [
+              106.474831,
+              38.206681
+            ],
+            [
+              106.465763,
+              38.195933
+            ],
+            [
+              106.461219,
+              38.186252
+            ],
+            [
+              106.459252,
+              38.178272
+            ],
+            [
+              106.460488,
+              38.174883
+            ],
+            [
+              106.463586,
+              38.173005
+            ],
+            [
+              106.46994,
+              38.172007
+            ],
+            [
+              106.477889,
+              38.172245
+            ],
+            [
+              106.480926,
+              38.17378
+            ],
+            [
+              106.487082,
+              38.179084
+            ],
+            [
+              106.49574,
+              38.193114
+            ],
+            [
+              106.492622,
+              38.198208
+            ],
+            [
+              106.497863,
+              38.204221
+            ],
+            [
+              106.500411,
+              38.216929
+            ],
+            [
+              106.503073,
+              38.216855
+            ],
+            [
+              106.510333,
+              38.242702
+            ],
+            [
+              106.511705,
+              38.243746
+            ],
+            [
+              106.507558,
+              38.255477
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1189.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2020-08-14 00:00:00",
+        "notes": "The boundary coordinates are found on page 3 of Assessment Report on the Revenue from the Transfer of Mining Rights for the No. 9 Coal Seam at Renjiazhuang Coal Mine, Shenhua Ningxia Coal Industry Group Co., Ltd (\u795e\u534e\u5b81\u590f\u7164\u4e1a\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8\u4efb\u5bb6\u5e84\u7164\u77ff \u4e5d\u7164\u91c7\u77ff\u6743\u51fa\u8ba9\u6536\u76ca\u8bc4\u4f30\u62a5\u544a) https://web.archive.org/web/20250801192726/https://zrzyt.nx.gov.cn/gk/fdzdgknr/kczygl/202009/t20200910_2228871.html",
+        "description": "Renjiazhuang coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1189",
+        "Owners": "Ningxia Ninglu Coal and Electricity Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "National Energy Investment Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Renjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%AE%81%E5%A4%8F%E5%AE%81%E9%B2%81%E7%85%A4%E7%94%B5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BB%BB%E5%AE%B6%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Renjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 01, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.470704,
+          38.194357
+        ]
+      },
+      "properties": {
+        "id": "M1189.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-03-11 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1189",
+        "Owners": "Ningxia Ninglu Coal and Electricity Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "National Energy Investment Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Renjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%AE%81%E5%A4%8F%E5%AE%81%E9%B2%81%E7%85%A4%E7%94%B5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BB%BB%E5%AE%B6%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Renjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 01, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.482493,
+          38.218403
+        ]
+      },
+      "properties": {
+        "id": "M1189.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-09-15 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1189",
+        "Owners": "Ningxia Ninglu Coal and Electricity Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "National Energy Investment Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Renjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%AE%81%E5%A4%8F%E5%AE%81%E9%B2%81%E7%85%A4%E7%94%B5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BB%BB%E5%AE%B6%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Renjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 01, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.490717,
+          38.248317
+        ]
+      },
+      "properties": {
+        "id": "M1189.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-09-15 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1189",
+        "Owners": "Ningxia Ninglu Coal and Electricity Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "National Energy Investment Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Renjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%AE%81%E5%A4%8F%E5%AE%81%E9%B2%81%E7%85%A4%E7%94%B5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BB%BB%E5%AE%B6%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Renjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 01, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(38.172007, 106.459252), L.latLng(38.272526, 106.511705));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([38.193105, 106.467753], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Renjiazhuang Coal Mine Operating mine');
+	GEMMine.bindTooltip('Renjiazhuang Coal Mine Operating mine', { permanent: true, direction: 'right'});

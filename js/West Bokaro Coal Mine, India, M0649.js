@@ -1,0 +1,153 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.53566,
+              23.791321
+            ],
+            [
+              85.534989,
+              23.788977
+            ],
+            [
+              85.523523,
+              23.792538
+            ],
+            [
+              85.522176,
+              23.791303
+            ],
+            [
+              85.519085,
+              23.784761
+            ],
+            [
+              85.525154,
+              23.783783
+            ],
+            [
+              85.524217,
+              23.779834
+            ],
+            [
+              85.547279,
+              23.773451
+            ],
+            [
+              85.560755,
+              23.775318
+            ],
+            [
+              85.567901,
+              23.773106
+            ],
+            [
+              85.575312,
+              23.773854
+            ],
+            [
+              85.582452,
+              23.776945
+            ],
+            [
+              85.585684,
+              23.779045
+            ],
+            [
+              85.585948,
+              23.783115
+            ],
+            [
+              85.574468,
+              23.802837
+            ],
+            [
+              85.570998,
+              23.805118
+            ],
+            [
+              85.565713,
+              23.805675
+            ],
+            [
+              85.553305,
+              23.803637
+            ],
+            [
+              85.546697,
+              23.803916
+            ],
+            [
+              85.534152,
+              23.807354
+            ],
+            [
+              85.53566,
+              23.791321
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0649.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-06-18 00:00:00",
+        "notes": "Page 2 of 'Presentation TATA steel', published Jun 18, 2023, \"This document discusses highwall mining at Tata Steel's West Bokaro colliery in India. It provides an overview of the geological location and infrastructure at West Bokaro. [etc]', https://web.archive.org/web/20250916154637/https://www.scribd.com/document/653816201/Presentataion-TATA-Steel, shows a diagram in slide 2 of the West Bokaro Colliery boundary. After extraction, the area of the boundary is 1,754 hectares, which closely matches the area of 1,740 hectares, described in page 59 of Integrated Report & Annual Accounts for Financial Year 2023-24, https://web.archive.org/web/20250311000246/https://www.tatasteel.com/media/21244/integrated-report-and-annual-accounts-fy2023-24.pdf.",
+        "description": "West Bokaro mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0649",
+        "Owners": "Coal India; Tata Steel",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Tata Group [50%] Coal India [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/West_Bokaro_coal_mine_(Tata)",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "West Bokaro Coal Mine",
+        "Country / Area": "India",
+        "Last researched": "Sep 16, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(23.773106, 85.519085), L.latLng(23.807354, 85.585948));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([23.7927473, 85.55423096], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('West Bokaro Coal Mine Operating mine');
+	GEMMine.bindTooltip('West Bokaro Coal Mine Operating mine', { permanent: true, direction: 'right'});

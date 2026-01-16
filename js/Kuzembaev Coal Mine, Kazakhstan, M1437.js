@@ -1,0 +1,537 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.932553,
+              49.798049
+            ],
+            [
+              72.931345,
+              49.794508
+            ],
+            [
+              72.929137,
+              49.793588
+            ],
+            [
+              72.9318,
+              49.789565
+            ],
+            [
+              72.93434,
+              49.789739
+            ],
+            [
+              72.938351,
+              49.788963
+            ],
+            [
+              72.942628,
+              49.790086
+            ],
+            [
+              72.957064,
+              49.789916
+            ],
+            [
+              72.965084,
+              49.787673
+            ],
+            [
+              72.973637,
+              49.776626
+            ],
+            [
+              72.98112,
+              49.77628
+            ],
+            [
+              72.986733,
+              49.777142
+            ],
+            [
+              72.992883,
+              49.781801
+            ],
+            [
+              73.001303,
+              49.781798
+            ],
+            [
+              73.005717,
+              49.787061
+            ],
+            [
+              73.012539,
+              49.791805
+            ],
+            [
+              73.022969,
+              49.793871
+            ],
+            [
+              73.027782,
+              49.792574
+            ],
+            [
+              73.029524,
+              49.796198
+            ],
+            [
+              73.028062,
+              49.803534
+            ],
+            [
+              73.02499,
+              49.80647
+            ],
+            [
+              73.034757,
+              49.809054
+            ],
+            [
+              73.039178,
+              49.813107
+            ],
+            [
+              73.03718,
+              49.818459
+            ],
+            [
+              73.04013,
+              49.8226
+            ],
+            [
+              73.041211,
+              49.828555
+            ],
+            [
+              73.040006,
+              49.828383
+            ],
+            [
+              73.038939,
+              49.830196
+            ],
+            [
+              73.044831,
+              49.831661
+            ],
+            [
+              73.044172,
+              49.837013
+            ],
+            [
+              73.041234,
+              49.840899
+            ],
+            [
+              73.03067,
+              49.847724
+            ],
+            [
+              73.027054,
+              49.847121
+            ],
+            [
+              73.024238,
+              49.843842
+            ],
+            [
+              73.022493,
+              49.840907
+            ],
+            [
+              73.019679,
+              49.838405
+            ],
+            [
+              73.015525,
+              49.834004
+            ],
+            [
+              73.01499,
+              49.834522
+            ],
+            [
+              73.006823,
+              49.829778
+            ],
+            [
+              72.999864,
+              49.827795
+            ],
+            [
+              72.995449,
+              49.827364
+            ],
+            [
+              72.990233,
+              49.828833
+            ],
+            [
+              72.986221,
+              49.832113
+            ],
+            [
+              72.98127,
+              49.830474
+            ],
+            [
+              72.974447,
+              49.829698
+            ],
+            [
+              72.978192,
+              49.825727
+            ],
+            [
+              72.974436,
+              49.824396
+            ],
+            [
+              72.96674,
+              49.820856
+            ],
+            [
+              72.963676,
+              49.818879
+            ],
+            [
+              72.958397,
+              49.816494
+            ],
+            [
+              72.953417,
+              49.813591
+            ],
+            [
+              72.946095,
+              49.811056
+            ],
+            [
+              72.942448,
+              49.807797
+            ],
+            [
+              72.938609,
+              49.805964
+            ],
+            [
+              72.930723,
+              49.80087
+            ],
+            [
+              72.924218,
+              49.799287
+            ],
+            [
+              72.932553,
+              49.798049
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1437.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "9/2020 and 4/2025",
+        "notes": "The Kuzembaev mine is part of the Karaganda Coal Mines Complex that includes eight underground coal mines and the Vostochnaya coal preparation plant. These mines are: Kostenko, Kuzembaeva, Saranskaya, Abayskaya, Kazakhstanskaya, Lenina, Shakhtinskaya and Tentekskaya coal mines, https://web.archive.org/web/20250207022321/https://miningdataonline.com/property/1772/Karaganda-Coal-Mines-Complex.aspx.  The boundary was extracted from the Unified Platform for Subsoil Use, Ministry of Industry and Construction of the Republic of Kazakhstan https://web.archive.org/web/2/https://minerals.e-qazyna.kz/en/contracts-map and based on object 144, issued May 12 1997, of work type 'contracts mountain' for AselorMittal Temirtau LLP. Note that another smaller contracts boundary is contained within this boundary, for JSC UD Arcelor Mittal Temirtau. The south western edge of the boundary overlaps with the north eastern boundary of the Saranskaya mine. The area of the boundary is 33 sq km.",
+        "description": "Kuzembaev Coal Mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.015473,
+          49.81712
+        ]
+      },
+      "properties": {
+        "id": "M1437.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-06-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.031896,
+          49.818152
+        ]
+      },
+      "properties": {
+        "id": "M1437.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.009811,
+          49.8124
+        ]
+      },
+      "properties": {
+        "id": "M1437.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.965355,
+          49.805765
+        ]
+      },
+      "properties": {
+        "id": "M1437.P5",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-06-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.982331,
+          49.801706
+        ]
+      },
+      "properties": {
+        "id": "M1437.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.965825,
+          49.805233
+        ]
+      },
+      "properties": {
+        "id": "M1437.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-05-26 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.015811,
+          49.816884
+        ]
+      },
+      "properties": {
+        "id": "M1437.P8",
+        "mine feature category": "other",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-05-26 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Mine shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.026099,
+          49.8081
+        ]
+      },
+      "properties": {
+        "id": "M1437.P9",
+        "mine feature category": "other",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-05-26 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Mine shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1437",
+        "Owners": "Qarmet JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Qazaqstan Steel Group LLP",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kuzembaev_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Kuzembaev Coal Mine",
+        "Country / Area": "Kazakhstan",
+        "Last researched": "Apr 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(49.77628, 72.924218), L.latLng(49.847724, 73.044831));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([49.805879, 72.966106], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Kuzembaev Coal Mine Operating mine');
+	GEMMine.bindTooltip('Kuzembaev Coal Mine Operating mine', { permanent: true, direction: 'right'});

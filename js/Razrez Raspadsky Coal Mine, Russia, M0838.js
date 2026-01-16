@@ -1,0 +1,185 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.185733,
+              53.841731
+            ],
+            [
+              88.190181,
+              53.842842
+            ],
+            [
+              88.195458,
+              53.845619
+            ],
+            [
+              88.200458,
+              53.852286
+            ],
+            [
+              88.203792,
+              53.854231
+            ],
+            [
+              88.204347,
+              53.855619
+            ],
+            [
+              88.206292,
+              53.856175
+            ],
+            [
+              88.208792,
+              53.858397
+            ],
+            [
+              88.208236,
+              53.860342
+            ],
+            [
+              88.209347,
+              53.862286
+            ],
+            [
+              88.214347,
+              53.865342
+            ],
+            [
+              88.216292,
+              53.865342
+            ],
+            [
+              88.220736,
+              53.867008
+            ],
+            [
+              88.222681,
+              53.871453
+            ],
+            [
+              88.224347,
+              53.872008
+            ],
+            [
+              88.227403,
+              53.875342
+            ],
+            [
+              88.229069,
+              53.878397
+            ],
+            [
+              88.232125,
+              53.879786
+            ],
+            [
+              88.232403,
+              53.880897
+            ],
+            [
+              88.234903,
+              53.883119
+            ],
+            [
+              88.227125,
+              53.886731
+            ],
+            [
+              88.225181,
+              53.883397
+            ],
+            [
+              88.223236,
+              53.880897
+            ],
+            [
+              88.214625,
+              53.872842
+            ],
+            [
+              88.212125,
+              53.869508
+            ],
+            [
+              88.203514,
+              53.864786
+            ],
+            [
+              88.185733,
+              53.849508
+            ],
+            [
+              88.175733,
+              53.845897
+            ],
+            [
+              88.185733,
+              53.841731
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0838.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-12-11 00:00:00",
+        "notes": "This mine operates under subsoil land-use license \u041a\u0415\u041c12939\u0422\u042d, as identified through the Annual Report of PJSC \u201cYuzhny Kuzbass Coal Company\u201d, page 8, https://www.archive.org/details/go-uk-2024, 2024.The license was issued on January 12, 2005, and is valid until December 31, 2044. The boundary was extracted from the NedraExpert portal at https://web.archive.org/web/20251209184505/https://www.nedraexpert.ru/license/147937?ysclid=miyxhn463j279250287. The approximate area of the resulting boundary is 4 square km.",
+        "description": "Razrez Raspadsky mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0838",
+        "Owners": "Razrez Raspadsky JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Razrez_Raspadsky_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Razrez Raspadsky Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(53.83175691, 88.175733), L.latLng(53.886731, 88.234903));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([53.83175691, 88.18458387], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Razrez Raspadsky Coal Mine Operating mine');
+	GEMMine.bindTooltip('Razrez Raspadsky Coal Mine Operating mine', { permanent: true, direction: 'right'});

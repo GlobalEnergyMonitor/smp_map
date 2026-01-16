@@ -1,0 +1,235 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.313792,
+              -22.087947
+            ],
+            [
+              148.312951,
+              -22.085986
+            ],
+            [
+              148.31767,
+              -22.086521
+            ],
+            [
+              148.309377,
+              -22.045839
+            ],
+            [
+              148.307064,
+              -22.045056
+            ],
+            [
+              148.302944,
+              -22.044588
+            ],
+            [
+              148.299256,
+              -22.041064
+            ],
+            [
+              148.288071,
+              -22.034952
+            ],
+            [
+              148.28766,
+              -22.034727
+            ],
+            [
+              148.286428,
+              -22.034054
+            ],
+            [
+              148.285511,
+              -22.035356
+            ],
+            [
+              148.280781,
+              -22.042068
+            ],
+            [
+              148.259296,
+              -22.039622
+            ],
+            [
+              148.259942,
+              -22.056432
+            ],
+            [
+              148.264841,
+              -22.065481
+            ],
+            [
+              148.276696,
+              -22.072714
+            ],
+            [
+              148.266119,
+              -22.08913
+            ],
+            [
+              148.273902,
+              -22.103554
+            ],
+            [
+              148.276733,
+              -22.081873
+            ],
+            [
+              148.278167,
+              -22.082036
+            ],
+            [
+              148.278672,
+              -22.082094
+            ],
+            [
+              148.28317,
+              -22.082605
+            ],
+            [
+              148.284984,
+              -22.088336
+            ],
+            [
+              148.28652,
+              -22.090551
+            ],
+            [
+              148.296743,
+              -22.09509
+            ],
+            [
+              148.306733,
+              -22.116292
+            ],
+            [
+              148.307067,
+              -22.117001
+            ],
+            [
+              148.310809,
+              -22.124942
+            ],
+            [
+              148.318555,
+              -22.124885
+            ],
+            [
+              148.324042,
+              -22.116797
+            ],
+            [
+              148.315406,
+              -22.098465
+            ],
+            [
+              148.315166,
+              -22.097957
+            ],
+            [
+              148.313853,
+              -22.095168
+            ],
+            [
+              148.313792,
+              -22.087947
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0032.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-10-18 00:00:00",
+        "notes": "Table 17: Daunia tenure, on page 61 of ASX ANNOUNCEMENT \"Whitehaven Coal to acquire 100% of BMA\u2019s Daunia and Blackwater coal mines through a compelling and transformational acquisition\", published 18 October 2023, https://web.archive.org/web/2/https://whitehavencoal.com.au/wp-content/uploads/2023/10/WHC_Acquisition_of_Daunia_and_Blackwater_mines_announcement.pdf, shows the mining leases for Daunia mine : ML 1781 (Daunia), ML 70115 (Daunia East), ML\n 70116 (Red Mountain). Figure 3: Primary tenures and layout of the Daunia Mine, on page 10 illustrates these mining lease boundaries and the mining areas and future potential mining contained within. Note that ML 70116 contains the coal handling and process plant but no apparent mining pits.\n\nThe boundary includes the three mining leases. The area of the boundary is 34 sq km.\n\nMining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "Daunia mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0032",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Daunia_coal_project",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Daunia Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 03, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.268221,
+          -22.043042
+        ]
+      },
+      "properties": {
+        "id": "M0032.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-10-18 00:00:00",
+        "notes": "Referred to on page 10 of https://web.archive.org/web/2/https://whitehavencoal.com.au/wp-content/uploads/2023/10/WHC_Acquisition_of_Daunia_and_Blackwater_mines_announcement.pdf and visually identified with Google Earth Pro satellite imagery.",
+        "description": "Coal handling and processing plant in ML 70116 (Red Mountain)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0032",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Daunia_coal_project",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Daunia Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 03, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(-22.124942, 148.259296), L.latLng(-22.034054, 148.324042));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([-22.0410919, 148.2702015], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Daunia Coal Mine Operating mine');
+	GEMMine.bindTooltip('Daunia Coal Mine Operating mine', { permanent: true, direction: 'right'});

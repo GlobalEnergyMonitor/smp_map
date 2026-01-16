@@ -1,0 +1,339 @@
+
+    var mine = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.160113,
+              -21.731779
+            ],
+            [
+              148.15822,
+              -21.738614
+            ],
+            [
+              148.152707,
+              -21.780283
+            ],
+            [
+              148.157422,
+              -21.793066
+            ],
+            [
+              148.178373,
+              -21.788193
+            ],
+            [
+              148.182169,
+              -21.822386
+            ],
+            [
+              148.173893,
+              -21.837706
+            ],
+            [
+              148.169628,
+              -21.848219
+            ],
+            [
+              148.171744,
+              -21.853122
+            ],
+            [
+              148.186889,
+              -21.827853
+            ],
+            [
+              148.181457,
+              -21.787475
+            ],
+            [
+              148.219865,
+              -21.778533
+            ],
+            [
+              148.184425,
+              -21.731778
+            ],
+            [
+              148.167758,
+              -21.731778
+            ],
+            [
+              148.160113,
+              -21.731779
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0052.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-09-02 00:00:00",
+        "notes": "Figure 2 - Mine Layout on page 5 of the Ironbark No.1 Coal Mine Project Initial Development Plan, 25 October 2017, https://web.archive.org/web/20240626133555/https://www.miningnewsfeed.com/reports/Irionbark_1_Coal_Mine_Project_Initial_Development_Plan_10252017.pdf, shows the proposed mining lease boundary. The boundary is then shown in the Appendix 1 Approved Project Layout on page 43 of the Environmental authority EA0001299 permit, December 8, 2021,  https://web.archive.org/web/2/https://storagesolutiondocsprod.blob.core.windows.net/register-documents-ea/EA0001299.pdf. Page 1 of the same document refers to the mining lease permit ML700024. The boundary is the geometry of permit ML 700024 as extracted from the Queensland Mining Leases dataset, last updated Sep 2 2025, https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27.  The area of the boundary is approximately 34 sq km.",
+        "description": "Ironbark No. 1 mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.161578,
+          -21.734422
+        ]
+      },
+      "properties": {
+        "id": "M0052.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.167935,
+          -21.738767
+        ]
+      },
+      "properties": {
+        "id": "M0052.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2024-04-30 00:00:00",
+        "notes": "APPENDIX 2 - APPROVED SURFACE INFRASTRUCTURE on page 51 of Permit Environmental authority number: EA0001299,  https://web.archive.org/web/2/https://storagesolutiondocsprod.blob.core.windows.net/register-documents-ea/EA0001299_20240430.pdf, April 30 2024, shows the planned location of the gas fired power station.",
+        "description": "mine gas fired power station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.163096,
+          -21.732537
+        ]
+      },
+      "properties": {
+        "id": "M0052.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.175041,
+          -21.752483
+        ]
+      },
+      "properties": {
+        "id": "M0052.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.176308,
+          -21.752988
+        ]
+      },
+      "properties": {
+        "id": "M0052.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.176562,
+          -21.751453
+        ]
+      },
+      "properties": {
+        "id": "M0052.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.182696,
+          -21.762533
+        ]
+      },
+      "properties": {
+        "id": "M0052.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+      }
+    }
+  ]
+}
+
+    var bounds = L.latLngBounds(L.latLng(-21.97648262, 148.152707), L.latLng(-21.731778, 148.2346531));
+                        
+    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+
+    // add basemaps layer control
+    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
+    var layerControl = L.control.layers(baseMaps).addTo(map);
+
+    // add popup content
+    function onEachFeature(feature, layer) {
+        let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        for (const [key, value] of Object.entries(feature.properties)) {
+            popupContent += '<b>' + key + '</b>: ' + value + '<br />'
+        }
+        layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+	}
+
+    // add the mine layer to the map
+    const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
+
+    // Add the GEM mine location as markers                   
+    var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+
+    var GEMMine;
+                        
+	GEMMine = L.marker([-21.97648262, 148.2346531], {icon: GEMMineIcon}).addTo(map); 
+	GEMMine.bindPopup('Ironbark No. 1 Coal Mine Operating mine');
+	GEMMine.bindTooltip('Ironbark No. 1 Coal Mine Operating mine', { permanent: true, direction: 'right'});
