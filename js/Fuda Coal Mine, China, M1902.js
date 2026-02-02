@@ -93,7 +93,7 @@
         "Mine Name": "Fuda Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 24, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -123,7 +123,7 @@
         "Mine Name": "Fuda Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 24, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -153,7 +153,7 @@
         "Mine Name": "Fuda Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 24, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -183,7 +183,7 @@
         "Mine Name": "Fuda Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 24, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     }
   ]

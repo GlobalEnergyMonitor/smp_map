@@ -245,7 +245,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -275,7 +275,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -305,7 +305,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -335,7 +335,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -365,7 +365,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -395,7 +395,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -425,7 +425,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -455,7 +455,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -485,7 +485,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -515,7 +515,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -545,7 +545,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -575,7 +575,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -605,7 +605,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -635,7 +635,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -665,7 +665,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -695,7 +695,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -725,7 +725,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -755,7 +755,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -785,37 +785,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.169653,
-          54.594106
-        ]
-      },
-      "properties": {
-        "id": "M0809.P19",
-        "mine feature category": "degasification system",
-        "mine feature subcategory": "drainage station",
-        "data source date": "2025-04-12 00:00:00",
-        "notes": "Identified visually from Google Earth Pro satellite imagery.",
-        "description": "Gas drainage station",
-        "coordinates precision": "extracted",
-        "GEM Mine ID": "M0809",
-        "Owners": "SUEK-Kuzbass JSC [100%]",
-        "Owners (Non-ENG)": "",
-        "Parent Company": "Siberian Coal Energy Company JSC",
-        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
-        "GEM Wiki Page (Non-ENG)": "",
-        "Coal Grade": "Thermal & Met",
-        "Mine Name": "Kirova Coal Mine",
-        "Country / Area": "Russia",
-        "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -845,7 +815,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -875,7 +845,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -905,7 +875,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -935,7 +905,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -965,7 +935,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -995,7 +965,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1025,7 +995,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1055,7 +1025,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1085,7 +1055,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1115,7 +1085,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1145,7 +1115,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1175,7 +1145,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1205,7 +1175,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1235,7 +1205,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1265,7 +1235,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1295,7 +1265,7 @@
         "Mine Name": "Kirova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     }
   ]

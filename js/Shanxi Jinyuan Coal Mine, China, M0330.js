@@ -117,7 +117,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -219,7 +219,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -249,7 +249,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -279,7 +279,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -309,7 +309,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -339,7 +339,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -369,7 +369,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -399,7 +399,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -429,7 +429,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -459,7 +459,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -489,7 +489,7 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -519,7 +519,37 @@
         "Mine Name": "Shanxi Jinyuan Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 03, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.850131,
+          37.678035
+        ]
+      },
+      "properties": {
+        "id": "M0330.P11",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-11-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     }
   ]

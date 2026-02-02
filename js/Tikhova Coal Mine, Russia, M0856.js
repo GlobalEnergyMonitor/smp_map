@@ -97,7 +97,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -127,7 +127,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -157,7 +157,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -187,7 +187,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -217,7 +217,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -247,7 +247,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -277,7 +277,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -307,7 +307,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -337,7 +337,7 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -367,7 +367,37 @@
         "Mine Name": "Tikhova Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Dec 12, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.141685,
+          54.530631
+        ]
+      },
+      "properties": {
+        "id": "M0856.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-04-18 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. The drainage station is visible in 2022, but no longer present.",
+        "description": "Prior drainage station location",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0856",
+        "Owners": "Shakhta Tikhova LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Magnitogorskiy Metallurgicheskiy Kombinat PJSC [100.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tikhova_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Tikhova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     }
   ]

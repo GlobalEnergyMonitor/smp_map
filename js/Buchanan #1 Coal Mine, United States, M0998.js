@@ -733,7 +733,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -763,7 +763,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -778,7 +778,7 @@
       "properties": {
         "id": "M0998.P2",
         "mine feature category": "degasification system",
-        "mine feature subcategory": "gas well",
+        "mine feature subcategory": "drainage station",
         "data source date": "2023-11-01 00:00:00",
         "notes": "Identified visually from Google Earth Pro satellite imagery.",
         "description": "possible gas drainage infrastructure",
@@ -793,7 +793,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -808,7 +808,7 @@
       "properties": {
         "id": "M0998.P3",
         "mine feature category": "degasification system",
-        "mine feature subcategory": "gas well",
+        "mine feature subcategory": "drainage station",
         "data source date": "2023-11-01 00:00:00",
         "notes": "Identified visually from Google Earth Pro satellite imagery.",
         "description": "possible gas drainage infrastructure",
@@ -823,7 +823,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -853,7 +853,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -868,7 +868,7 @@
       "properties": {
         "id": "M0998.P5",
         "mine feature category": "degasification system",
-        "mine feature subcategory": "gas well",
+        "mine feature subcategory": "drainage station",
         "data source date": "2023-11-01 00:00:00",
         "notes": "Identified visually from Google Earth Pro satellite imagery.",
         "description": "possible gas drainage infrastructure",
@@ -883,7 +883,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -898,7 +898,7 @@
       "properties": {
         "id": "M0998.P6",
         "mine feature category": "degasification system",
-        "mine feature subcategory": "gas well",
+        "mine feature subcategory": "drainage station",
         "data source date": "2023-11-01 00:00:00",
         "notes": "Identified visually from Google Earth Pro satellite imagery.",
         "description": "possible gas drainage infrastructure",
@@ -913,7 +913,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -943,7 +943,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -973,7 +973,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1003,7 +1003,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1033,7 +1033,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1063,7 +1063,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1093,7 +1093,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1108,7 +1108,7 @@
       "properties": {
         "id": "M0998.P13",
         "mine feature category": "degasification system",
-        "mine feature subcategory": "gas well",
+        "mine feature subcategory": "drainage station",
         "data source date": "2023-11-01 00:00:00",
         "notes": "Identified visually from Google Earth Pro satellite imagery.",
         "description": "possible gas drainage infrastructure",
@@ -1123,7 +1123,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1153,7 +1153,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1183,7 +1183,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1213,7 +1213,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1243,7 +1243,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1273,7 +1273,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1303,7 +1303,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1333,7 +1333,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1363,7 +1363,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1393,7 +1393,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1423,7 +1423,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1453,7 +1453,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1483,7 +1483,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1513,7 +1513,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1543,7 +1543,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1573,7 +1573,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1603,7 +1603,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1633,7 +1633,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1663,7 +1663,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1693,7 +1693,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1723,7 +1723,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1753,7 +1753,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1783,7 +1783,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -1813,7 +1813,7 @@
         "Mine Name": "Buchanan #1 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 30, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     }
   ]

@@ -89,7 +89,7 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -119,7 +119,7 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -149,7 +149,7 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -179,7 +179,7 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -209,7 +209,7 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -239,7 +239,7 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -269,7 +269,7 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -299,13 +299,73 @@
         "Mine Name": "Ironbark No. 1 Coal Mine",
         "Country / Area": "Australia",
         "Last researched": "Nov 14, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.176706,
+          -21.752164
+        ]
+      },
+      "properties": {
+        "id": "M0052.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.964412,
+          -21.874333
+        ]
+      },
+      "properties": {
+        "id": "M0052.P9",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0052",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Riverstone; AMCI",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ironbark_No._1_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Ironbark No. 1 Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     }
   ]
 }
 
-    var bounds = L.latLngBounds(L.latLng(-21.97648262, 148.152707), L.latLng(-21.731778, 148.2346531));
+    var bounds = L.latLngBounds(L.latLng(-21.97648262, 147.964412), L.latLng(-21.731778, 148.2346531));
                         
     // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
     var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})

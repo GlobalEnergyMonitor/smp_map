@@ -105,7 +105,7 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -135,7 +135,7 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -165,7 +165,7 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -195,7 +195,7 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -225,7 +225,7 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -255,7 +255,7 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -285,7 +285,7 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     },
     {
@@ -315,7 +315,37 @@
         "Mine Name": "Huangling No. 2 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jan 06, 2026",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.926219,
+          35.729309
+        ]
+      },
+      "properties": {
+        "id": "M0252.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2025-01-13 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas to electric station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0252",
+        "Owners": "Shaanxi Huangling No.2 Coal Mine Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shaanxi Coal and Chemical Industry Group [34%]; Jiangsu Yueda Group [45%]; Industrial and Commercial Bank of China [21%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huangling_No.2_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E9%99%95%E8%A5%BF%E9%BB%84%E9%99%B5%E4%BA%8C%E5%8F%B7%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Huangling No. 2 Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jan 06, 2026",
+        "build_version": "mines - January 30 (built on January 30 2026 16.19.47 EST)"
       }
     }
   ]
