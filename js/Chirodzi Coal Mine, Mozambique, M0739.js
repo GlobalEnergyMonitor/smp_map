@@ -113,7 +113,7 @@
         "Mine Name": "Chirodzi Coal Mine",
         "Country / Area": "Mozambique",
         "Last researched": "Jul 23, 2025",
-        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
       }
     },
     {
@@ -219,7 +219,7 @@
         "Mine Name": "Chirodzi Coal Mine",
         "Country / Area": "Mozambique",
         "Last researched": "Jul 23, 2025",
-        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
       }
     },
     {
@@ -249,7 +249,7 @@
         "Mine Name": "Chirodzi Coal Mine",
         "Country / Area": "Mozambique",
         "Last researched": "Jul 23, 2025",
-        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
       }
     },
     {
@@ -279,7 +279,7 @@
         "Mine Name": "Chirodzi Coal Mine",
         "Country / Area": "Mozambique",
         "Last researched": "Jul 23, 2025",
-        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
       }
     }
   ]
