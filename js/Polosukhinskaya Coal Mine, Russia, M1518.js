@@ -117,7 +117,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -259,7 +259,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -289,7 +289,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -319,7 +319,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -349,7 +349,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -379,7 +379,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -409,7 +409,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -439,7 +439,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -469,7 +469,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -499,7 +499,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -529,7 +529,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -559,7 +559,7 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -589,7 +589,97 @@
         "Mine Name": "Polosukhinskaya Coal Mine",
         "Country / Area": "Russia",
         "Last researched": "Nov 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.326559,
+          53.920985
+        ]
+      },
+      "properties": {
+        "id": "M1518.P15",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-04 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.405355,
+          53.954073
+        ]
+      },
+      "properties": {
+        "id": "M1518.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.406507,
+          53.952673
+        ]
+      },
+      "properties": {
+        "id": "M1518.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     }
   ]

@@ -153,7 +153,7 @@
         "Mine Name": "Duerping Coal Mine",
         "Country / Area": "China",
         "Last researched": "Aug 19, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -183,7 +183,7 @@
         "Mine Name": "Duerping Coal Mine",
         "Country / Area": "China",
         "Last researched": "Aug 19, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -213,7 +213,7 @@
         "Mine Name": "Duerping Coal Mine",
         "Country / Area": "China",
         "Last researched": "Aug 19, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -243,7 +243,7 @@
         "Mine Name": "Duerping Coal Mine",
         "Country / Area": "China",
         "Last researched": "Aug 19, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -273,7 +273,7 @@
         "Mine Name": "Duerping Coal Mine",
         "Country / Area": "China",
         "Last researched": "Aug 19, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     }
   ]

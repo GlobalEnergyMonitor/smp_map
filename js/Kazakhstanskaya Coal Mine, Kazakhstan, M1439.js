@@ -237,37 +237,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.530966,
-          49.746095
-        ]
-      },
-      "properties": {
-        "id": "M1439.P2",
-        "mine feature category": "ventilation system",
-        "mine feature subcategory": "vent",
-        "data source date": "2023-06-01 00:00:00",
-        "notes": "Identified visually from Google Earth Pro satellite imagery.",
-        "description": "ventilation shaft",
-        "coordinates precision": "extracted",
-        "GEM Mine ID": "M1439",
-        "Owners": "Qarmet JSC [100%]",
-        "Owners (Non-ENG)": "",
-        "Parent Company": "Qazaqstan Steel Group LLP",
-        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kazakhstanskaya_coal_mine",
-        "GEM Wiki Page (Non-ENG)": "",
-        "Coal Grade": "Met",
-        "Mine Name": "Kazakhstanskaya Coal Mine",
-        "Country / Area": "Kazakhstan",
-        "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -297,7 +267,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -327,37 +297,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.518783,
-          49.752169
-        ]
-      },
-      "properties": {
-        "id": "M1439.P5",
-        "mine feature category": "degasification system",
-        "mine feature subcategory": "drainage station",
-        "data source date": "2023-06-01 00:00:00",
-        "notes": "Identified visually from Google Earth Pro satellite imagery.",
-        "description": "drainage system",
-        "coordinates precision": "extracted",
-        "GEM Mine ID": "M1439",
-        "Owners": "Qarmet JSC [100%]",
-        "Owners (Non-ENG)": "",
-        "Parent Company": "Qazaqstan Steel Group LLP",
-        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kazakhstanskaya_coal_mine",
-        "GEM Wiki Page (Non-ENG)": "",
-        "Coal Grade": "Met",
-        "Mine Name": "Kazakhstanskaya Coal Mine",
-        "Country / Area": "Kazakhstan",
-        "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -387,37 +327,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.513121,
-          49.735834
-        ]
-      },
-      "properties": {
-        "id": "M1439.P7",
-        "mine feature category": "degasification system",
-        "mine feature subcategory": "drainage station",
-        "data source date": "2023-06-01 00:00:00",
-        "notes": "Identified visually from Google Earth Pro satellite imagery.",
-        "description": "possible gas drainage station",
-        "coordinates precision": "extracted",
-        "GEM Mine ID": "M1439",
-        "Owners": "Qarmet JSC [100%]",
-        "Owners (Non-ENG)": "",
-        "Parent Company": "Qazaqstan Steel Group LLP",
-        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kazakhstanskaya_coal_mine",
-        "GEM Wiki Page (Non-ENG)": "",
-        "Coal Grade": "Met",
-        "Mine Name": "Kazakhstanskaya Coal Mine",
-        "Country / Area": "Kazakhstan",
-        "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -447,7 +357,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -477,7 +387,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -507,7 +417,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -537,7 +447,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -567,7 +477,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     },
     {
@@ -597,7 +507,7 @@
         "Mine Name": "Kazakhstanskaya Coal Mine",
         "Country / Area": "Kazakhstan",
         "Last researched": "Dec 26, 2025",
-        "build_version": "mines - January 30 (built on February 02 2026 12.49.33 EST)"
+        "build_version": "mines - version 1.0.0 (Feb 3 2026) (built on February 03 2026 10.14.00 EST)"
       }
     }
   ]
