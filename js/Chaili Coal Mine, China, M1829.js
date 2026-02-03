@@ -117,7 +117,7 @@
         "Mine Name": "Chaili Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 28, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
       }
     },
     {
@@ -147,7 +147,7 @@
         "Mine Name": "Chaili Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 28, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
       }
     },
     {
@@ -177,7 +177,7 @@
         "Mine Name": "Chaili Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 28, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
       }
     },
     {
@@ -207,7 +207,7 @@
         "Mine Name": "Chaili Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 28, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
       }
     },
     {
@@ -237,7 +237,7 @@
         "Mine Name": "Chaili Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 28, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
       }
     },
     {
@@ -267,25 +267,17 @@
         "Mine Name": "Chaili Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 28, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 17.29.55 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
       }
     }
   ]
 }
-
-    var bounds = L.latLngBounds(L.latLng(34.911921, 116.998509), L.latLng(34.989711, 117.058744));
-                        
-    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
+    var bounds = L.latLngBounds(L.latLng(34.911921, 116.998509), L.latLng(34.989711, 117.058744));                        
     var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
-
     var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
-
-    // add basemaps layer control
     var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
     var layerControl = L.control.layers(baseMaps).addTo(map);
-
-    // add popup content
     function onEachFeature(feature, layer) {
         let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
         for (const [key, value] of Object.entries(feature.properties)) {
@@ -296,13 +288,8 @@
            layer.setStyle({ color: '#CA4A50', fillColor: '#CA4A50', opacity: 1.0 });
         }
 	}
-
-    // add the mine layer to the map
     const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
-
-    // Add the GEM mine location as markers                   
     var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
-
     var GEMMine;
                         
 	GEMMine = L.marker([34.957955, 117.026118], {icon: GEMMineIcon}).addTo(map); 
