@@ -145,7 +145,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -175,7 +175,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -205,7 +205,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -235,7 +235,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -265,7 +265,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -295,7 +295,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -325,7 +325,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -355,7 +355,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -385,7 +385,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -415,7 +415,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -445,7 +445,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -475,7 +475,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -505,7 +505,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -535,7 +535,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -565,7 +565,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -595,7 +595,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -625,7 +625,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -655,7 +655,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -685,7 +685,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -715,7 +715,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -745,7 +745,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -775,7 +775,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -805,7 +805,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -835,7 +835,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -865,7 +865,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -895,7 +895,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -925,7 +925,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -955,7 +955,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -985,7 +985,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -1015,7 +1015,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -1045,7 +1045,7 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -1075,7 +1075,37 @@
         "Mine Name": "No. 7 Coal Mine",
         "Country / Area": "United States",
         "Last researched": "May 22, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.241996,
+          33.322044
+        ]
+      },
+      "properties": {
+        "id": "M1051.P34",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-11-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     }
   ]

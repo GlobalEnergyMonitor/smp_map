@@ -129,7 +129,7 @@
         "Mine Name": "Anju Coal Mine",
         "Country / Area": "China",
         "Last researched": "May 19, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -159,7 +159,7 @@
         "Mine Name": "Anju Coal Mine",
         "Country / Area": "China",
         "Last researched": "May 19, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     },
     {
@@ -189,7 +189,7 @@
         "Mine Name": "Anju Coal Mine",
         "Country / Area": "China",
         "Last researched": "May 19, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.0 (built on February 03 2026 18.05.36 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 09 2026 13.16.08 EST)"
       }
     }
   ]
