@@ -945,3 +945,5 @@
 	GEMMine = L.marker([53.414136, 87.315216], {icon: GEMMineIcon}).addTo(map); 
 	GEMMine.bindPopup('Alardinskaya Coal Mine Operating mine');
 	GEMMine.bindTooltip('Alardinskaya Coal Mine Operating mine', { permanent: true, direction: 'right'});
+
+    map.invalidateSize();
