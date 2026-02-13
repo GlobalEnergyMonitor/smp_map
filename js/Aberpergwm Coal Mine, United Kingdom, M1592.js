@@ -540,8 +540,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -570,8 +570,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -600,8 +600,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -630,8 +630,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -660,8 +660,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -690,8 +690,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -720,8 +720,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -750,8 +750,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -780,8 +780,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -810,8 +810,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -840,8 +840,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -870,8 +870,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -900,8 +900,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -930,8 +930,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -960,8 +960,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -990,8 +990,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1020,8 +1020,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1050,8 +1050,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1080,8 +1080,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1110,8 +1110,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1140,8 +1140,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1170,8 +1170,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1200,8 +1200,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -1230,8 +1230,8 @@
         "Coal Grade": "Thermal & Met",
         "Mine Name": "Aberpergwm Coal Mine",
         "Country / Area": "United Kingdom",
-        "Last researched": "Apr 17, 2026",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "Last researched": "Apr 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     }
   ]

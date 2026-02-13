@@ -205,7 +205,7 @@
         "Mine Name": "Dongrong No. 3 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 29, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -451,7 +451,7 @@
         "Mine Name": "Dongrong No. 3 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 29, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -481,7 +481,7 @@
         "Mine Name": "Dongrong No. 3 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 29, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -511,7 +511,7 @@
         "Mine Name": "Dongrong No. 3 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 29, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -541,7 +541,7 @@
         "Mine Name": "Dongrong No. 3 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 29, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -571,7 +571,7 @@
         "Mine Name": "Dongrong No. 3 Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jul 29, 2025",
-        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 12 2026 10.59.11 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     }
   ]
