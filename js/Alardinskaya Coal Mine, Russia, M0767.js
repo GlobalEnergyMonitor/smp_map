@@ -937,7 +937,6 @@
     //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 13);
     //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView(bounds.getCenter(), 10);
 
-    map.fitBounds(map.getBounds());
 
     var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
     var layerControl = L.control.layers(baseMaps).addTo(map);
@@ -959,5 +958,6 @@
 	GEMMine.bindPopup('Alardinskaya Coal Mine Operating mine');
 	GEMMine.bindTooltip('Alardinskaya Coal Mine Operating mine', { permanent: true, direction: 'right'});
 
+    map.fitBounds(map.getBounds());
     //map.invalidateSize(); // doesn't make diff
     //map.whenReady(() => { setTimeout(() => { map.invalidateSize(); }, 0); }); // also doesn't make diff
