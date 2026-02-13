@@ -388,7 +388,11 @@
     var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     
+    // When this map is embedded in the GEM Wiki via an iframe widget, the enclosing html css for width and height of #map does not consistently
+    // come through, resulting in sometimes being 0, 0. This seems to mess fitBounds up resulting in a fully zoomed out map showing the entire planet.
+    // I tried many different adjustments, but in the end chose a setView with a fixed zoom of 12 to be much more reliable.
     //var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+                        
     var map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([37.781361000000004, -81.50452949999999], 12)                     
     
     var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
@@ -409,10 +413,10 @@
     const myDiv = document.getElementById('map');
     const width = myDiv.offsetWidth;
     const height = myDiv.offsetHeight;
-    console.log(width, height);                    
+    console.log("#map width: " + width + ", height: " + height);                    
 
     var GEMMine;
                         
 	GEMMine = L.marker([37.778338, -81.482806], {icon: GEMMineIcon}).addTo(map); 
-	GEMMine.bindPopup('Eagle #3 Coal Mine Operating mine');
-	GEMMine.bindTooltip('Eagle #3 Coal Mine Operating mine', { permanent: true, direction: 'right'});
+	GEMMine.bindPopup('Operating status(es): Operating');
+	GEMMine.bindTooltip('Eagle #3 Coal Mine', { permanent: true, direction: 'right'});
