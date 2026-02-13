@@ -934,6 +934,9 @@
     if (!bounds.isValid()) { 
        console.log("bounds bad")
     }
+    else { 
+       console.log("good bounds")
+    }
 
     //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 13);
 
