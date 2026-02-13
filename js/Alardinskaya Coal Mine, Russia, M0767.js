@@ -955,7 +955,10 @@
     //map.invalidateSize(); // doesn't make diff
     //map.whenReady(() => { setTimeout(() => { map.invalidateSize(); }, 0); }); // also doesn't make diff
 
+
 const myDiv = document.getElementById('map');
+myDiv.style.width = "600px";
+myDiv.style.height = "500px";
 const width = myDiv.offsetWidth;
 const height = myDiv.offsetHeight;
 console.log(`Width: ${width}px, Height: ${height}px`);
