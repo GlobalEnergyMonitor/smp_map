@@ -926,19 +926,14 @@
     var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     //var  map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds)
-    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds([
-     [53.393837, 87.273332], 
-     [53.456994, 87.438631]
-    ])
 
-    if (!bounds.isValid()) { 
-       console.log("bounds bad")
-    }
-    else { 
-       console.log("good bounds")
-    }
+    // no difference...
+    //var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds([ [53.393837, 87.273332], [53.456994, 87.438631] ])
 
-    //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 13);
+    // always good even when not working...
+    if (!bounds.isValid()) { console.log("bounds bad") } else { console.log("good bounds") }
+
+    const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 13);
 
 
 
