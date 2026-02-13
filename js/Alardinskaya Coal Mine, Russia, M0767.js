@@ -947,7 +947,7 @@
     const myDiv = document.getElementById('map');
     const width = myDiv.offsetWidth;
     const height = myDiv.offsetHeight;
-    console.log(width, height);                    
+    console.log("#map width: " + width + ", height: " + height);                    
 
     var GEMMine;
                         
