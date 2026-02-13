@@ -513,9 +513,11 @@
   ]
 }
     var bounds = L.latLngBounds(L.latLng(49.722185, 72.496139), L.latLng(49.78574, 72.598988));                        
-    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
-    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    
     var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+    
     var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
     var layerControl = L.control.layers(baseMaps).addTo(map);
     function onEachFeature(feature, layer) {
@@ -530,6 +532,12 @@
 	}
     const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
     var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+    
+    const myDiv = document.getElementById('map');
+    const width = myDiv.offsetWidth;
+    const height = myDiv.offsetHeight;
+    console.log(width, height);                    
+
     var GEMMine;
                         
 	GEMMine = L.marker([49.75044, 72.563474], {icon: GEMMineIcon}).addTo(map); 
