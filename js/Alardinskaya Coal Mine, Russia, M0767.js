@@ -925,7 +925,7 @@
     var bounds = L.latLngBounds(L.latLng(53.393837, 87.273332), L.latLng(53.456994, 87.438631));                        
     var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
-    var  map = L.map('map', {layers: [googleStreet, googleHybrid], zoomSnap: 0}).fitBounds(bounds)
+    var  map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds)
 
     //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.4254155, 87.3559815], 11); // this works consistently - i.e no fitBounds call
     //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView(bounds.getCenter(), 10); // doesn't work
@@ -954,3 +954,8 @@
     //map.fitBounds(map.getBounds());
     //map.invalidateSize(); // doesn't make diff
     //map.whenReady(() => { setTimeout(() => { map.invalidateSize(); }, 0); }); // also doesn't make diff
+
+const myDiv = document.getElementById('map');
+const width = myDiv.offsetWidth;
+const height = myDiv.offsetHeight;
+console.log(`Width: ${width}px, Height: ${height}px`);
