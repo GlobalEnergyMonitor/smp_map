@@ -923,8 +923,8 @@
   ]
 }
     var bounds = L.latLngBounds(L.latLng(53.393837, 87.273332), L.latLng(53.456994, 87.438631));                        
-    var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 15, attribution: '&copy; Google Maps'})
-    var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 15, attribution: '&copy; Google Maps'})
+    var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     var  map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds)
 
     // no difference...
@@ -959,4 +959,5 @@
 	GEMMine.bindPopup('Alardinskaya Coal Mine Operating mine');
 	GEMMine.bindTooltip('Alardinskaya Coal Mine Operating mine', { permanent: true, direction: 'right'});
 
-    map.invalidateSize();
+    //map.invalidateSize();
+    map.whenReady(() => { setTimeout(() => { map.invalidateSize(); }, 0); });
