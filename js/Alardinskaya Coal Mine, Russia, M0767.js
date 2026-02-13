@@ -926,8 +926,8 @@
     var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     
-    //var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
-    var map = L.map('map', {layers: [googleStreet, googleHybrid], zoomAnimation: false }).setView([53.4254155, 87.3559815], 10)                     
+    var map = L.map('map', {layers: [googleStreet, googleHybrid], renderer: L.canvas() }).fitBounds(bounds) 
+    //var map = L.map('map', {layers: [googleStreet, googleHybrid],  , renderer: L.canvas()}).setView([53.4254155, 87.3559815], 10)                     
     
     var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
     var layerControl = L.control.layers(baseMaps).addTo(map);
