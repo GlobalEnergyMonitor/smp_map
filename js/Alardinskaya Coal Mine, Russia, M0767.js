@@ -925,16 +925,9 @@
     var bounds = L.latLngBounds(L.latLng(53.393837, 87.273332), L.latLng(53.456994, 87.438631));                        
     var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
-    //var  map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds)
+    var  map = L.map('map', {layers: [googleStreet, googleHybrid], zoomSnap: 0}).fitBounds(bounds)
 
-    // no difference...
-    //var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds([ [53.393837, 87.273332], [53.456994, 87.438631] ])
-
-    // always good even when not working...
-    //if (!bounds.isValid()) { console.log("bounds bad") } else { console.log("good bounds") }
-
-    // this works consistently - i.e no fitBounds call
-    const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 10);
+    //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.4254155, 87.3559815], 11); // this works consistently - i.e no fitBounds call
     //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView(bounds.getCenter(), 10); // doesn't work
 
 
