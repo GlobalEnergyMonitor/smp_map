@@ -927,7 +927,6 @@
     var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     const map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
 
-    //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 13);
 
 
 
