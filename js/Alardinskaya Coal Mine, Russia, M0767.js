@@ -927,7 +927,7 @@
     var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
     //var  map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds)
 
-    const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.4254155, 87.3559815], 11); // this works consistently - i.e no fitBounds call
+    const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.4254155, 87.3559815], 11); // this works ALMOST consistently but not quite
     //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView(bounds.getCenter(), 10); // doesn't work
 
 
