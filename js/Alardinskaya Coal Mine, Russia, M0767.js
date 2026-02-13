@@ -960,4 +960,4 @@ const myDiv = document.getElementById('map');
 //myDiv.style.width = "600px"; myDiv.style.height = "500px"; // this doesn't always work
 const width = myDiv.offsetWidth;
 const height = myDiv.offsetHeight;
-console.log(`Width: ${width}px, Height: ${height}px`);
+console.error(`Width: ${width}px, Height: ${height}px`);
