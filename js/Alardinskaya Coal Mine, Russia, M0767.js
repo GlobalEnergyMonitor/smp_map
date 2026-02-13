@@ -934,8 +934,8 @@
     //if (!bounds.isValid()) { console.log("bounds bad") } else { console.log("good bounds") }
 
     // this works consistently - i.e no fitBounds call
-    //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 13);
-    const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView(bounds.getCenter(), 10);
+    const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([53.393837, 87.273332], 10);
+    //const map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView(bounds.getCenter(), 10); // doesn't work
 
 
     var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
