@@ -1885,16 +1885,18 @@
     // I tried many different adjustments, but in the end chose a setView with a fixed zoom of 12 to be much more reliable.
     //var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
                         
-    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([37.7774515, -81.242626], 12)                     
+    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([37.7774515, -81.242626], 12.0)                     
     
     var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
     var layerControl = L.control.layers(baseMaps).addTo(map);
     function onEachFeature(feature, layer) {
         let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        let tooltipContent = feature.properties['id'] + ": " + feature.properties['description']
         for (const [key, value] of Object.entries(feature.properties)) {
             popupContent += '<b>' + key + '</b>: ' + value + '<br />'
         }
         layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+        layer.bindTooltip(tooltipContent, { permanent: false, direction: 'right'});
         if (feature.properties['mine feature category'] == "mine boundary") {
            layer.setStyle({ color: '#CA4A50', fillColor: '#CA4A50', opacity: 1.0 });
         }
