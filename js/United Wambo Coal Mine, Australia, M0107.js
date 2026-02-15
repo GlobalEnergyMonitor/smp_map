@@ -257,9 +257,9 @@
     // When this map is embedded in the GEM Wiki via an iframe widget, the enclosing html css for width and height of #map does not consistently
     // come through, resulting in sometimes being 0, 0. This seems to mess fitBounds up resulting in a fully zoomed out map showing the entire planet.
     // I tried many different adjustments, but in the end chose a setView with a fixed zoom of 12 to be much more reliable.
-    //var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
+    //var map = L.map('map', {layers: [googleHybrid]}).fitBounds(bounds) 
                         
-    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([-32.55942, 150.9752145], 12.0)                     
+    var map = L.map('map', {layers: [googleHybrid]}).setView([-32.55942, 150.9752145], 12.0)                     
     var markerLayerGroup = L.layerGroup();
                         
 
@@ -317,8 +317,8 @@
     });
 
     var baseMaps = {
-        "Street view": googleStreet,
-        "Satellite view": googleHybrid
+        "Satellite view": googleHybrid,
+        "Street view": googleStreet
     };
     var overlayMaps = {
         "Labels": tooltipToggleLayer // The toggle switch for tooltips
