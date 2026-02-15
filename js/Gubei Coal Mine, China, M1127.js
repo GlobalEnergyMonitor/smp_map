@@ -244,9 +244,9 @@
     //var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
                         
     var map = L.map('map', {layers: [googleStreet, googleHybrid]}).setView([32.816455, 116.52174], 12.0)                     
-    
-    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
-    var layerControl = L.control.layers(baseMaps).addTo(map);
+    var markerLayerGroup = L.layerGroup();
+                        
+
     function onEachFeature(feature, layer) {
         let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
         let tooltipContent = feature.properties['id'] + ": " + feature.properties['description']
@@ -258,7 +258,10 @@
         if (feature.properties['mine feature category'] == "mine boundary") {
            layer.setStyle({ color: '#CA4A50', fillColor: '#CA4A50', opacity: 1.0 });
         }
+        markerLayerGroup.addLayer(layer)
 	}
+    
+    markerLayerGroup.addTo(map);
     const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
     var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
     
@@ -267,6 +270,45 @@
     const height = myDiv.offsetHeight;
     console.log("#map width: " + width + ", height: " + height);                    
 
+    // Create a "dummy" layer group specifically to act as the tooltip toggle switch in the control
+    var tooltipToggleLayer = L.layerGroup();
+    // Add event listeners to the map that listen for the toggle layer being added or removed
+    map.on('layeradd', function (e) {
+        if (e.layer === tooltipToggleLayer) {
+            // When the "Tooltip" overlay is selected, iterate over all markers and make tooltips permanent
+            markerLayerGroup.eachLayer(function (layer) {
+                if (layer.getTooltip()) {
+                    layer.getTooltip().options.permanent = true;
+                    layer.openTooltip(); // Open the tooltip permanently
+                }
+            });
+        }
+    });
+    map.on('layerremove', function (e) {
+        if (e.layer === tooltipToggleLayer) {
+            // When the "Tooltip" overlay is deselected, make tooltips non-permanent and close them
+            markerLayerGroup.eachLayer(function (layer) {
+                if (layer.getTooltip()) {
+                    layer.getTooltip().options.permanent = false;
+                    layer.closeTooltip();
+                }
+            });
+        }
+    });
+
+    map.on('zoomend', function() {
+        console.log("Current zoom level: " + map.getZoom());
+    });
+
+    var baseMaps = {
+        "Street view": googleStreet,
+        "Satellite view": googleHybrid
+    };
+    var overlayMaps = {
+        "Labels": tooltipToggleLayer // The toggle switch for tooltips
+    };
+    var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+                        
     var GEMMine;
                         
 	GEMMine = L.marker([32.821599, 116.543629], {icon: GEMMineIcon}).addTo(map); 
