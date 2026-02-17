@@ -714,7 +714,7 @@
 }
     var bounds = L.latLngBounds(L.latLng(37.505878, -81.643356), L.latLng(37.529224, -81.621337));                        
     var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 20, attribution: '&copy; Google Maps'})
-    var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 20, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}', {maxZoom: 20, attribution: '&copy; Google Maps'})
     
     // When this map is embedded in the GEM Wiki via an iframe widget, the enclosing html css for width and height of #map does not consistently
     // come through, resulting in sometimes being 0, 0. This seems to mess fitBounds up resulting in a fully zoomed out map showing the entire planet.
@@ -789,6 +789,6 @@
                         
     var GEMMine;
                         
-	GEMMine = L.marker([37.506111, -81.623611], {icon: GEMMineIcon}).addTo(map); 
-	GEMMine.bindPopup('Operating status(es): Operating');
-	GEMMine.bindTooltip('Sewell Mine B Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine = L.marker([37.506111, -81.623611], {icon: GEMMineIcon}).addTo(map); 
+    GEMMine.bindPopup('Operating status(es): Operating');
+    GEMMine.bindTooltip('Sewell Mine B Coal Mine', { permanent: true, direction: 'right'});
