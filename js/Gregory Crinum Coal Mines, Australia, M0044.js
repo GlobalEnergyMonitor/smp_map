@@ -342,5 +342,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-23.1491384, 148.3875874], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating, Proposed');
-    GEMMine.bindTooltip('Gregory Crinum Coal Mines', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating, Proposed");
+    GEMMine.bindTooltip("Gregory Crinum Coal Mines", { permanent: true, direction: 'right'});

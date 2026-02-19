@@ -1826,5 +1826,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([53.8855715, -119.1222671], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Grande Cache Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Grande Cache Coal Mine", { permanent: true, direction: 'right'});

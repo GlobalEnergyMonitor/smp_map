@@ -196,5 +196,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-21.753393, 148.443289], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Proposed, Operating');
-    GEMMine.bindTooltip('South Walker Creek Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Proposed, Operating");
+    GEMMine.bindTooltip("South Walker Creek Coal Mine", { permanent: true, direction: 'right'});

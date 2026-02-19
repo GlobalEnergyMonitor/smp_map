@@ -612,5 +612,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([37.411799, 110.861439], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Shaqu No.1 Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Shaqu No.1 Coal Mine", { permanent: true, direction: 'right'});

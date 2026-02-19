@@ -155,5 +155,5 @@
     var GEMMine;
                         
 	GEMMine = L.marker([36.373933, 113.01989], {icon: GEMMineIcon}).addTo(map); 
-	GEMMine.bindPopup('Lu'an Wangzhuang Coal Mine Operating mine');
-	GEMMine.bindTooltip('Lu'an Wangzhuang Coal Mine Operating mine', { permanent: true, direction: 'right'});
+	GEMMine.bindPopup("Lu'an Wangzhuang Coal Mine Operating mine");
+	GEMMine.bindTooltip("Lu'an Wangzhuang Coal Mine Operating mine", { permanent: true, direction: 'right'});

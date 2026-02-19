@@ -354,5 +354,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([37.462737, 110.886424], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Shanxi Liulin Xinfei Hechang Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Shanxi Liulin Xinfei Hechang Coal Mine", { permanent: true, direction: 'right'});

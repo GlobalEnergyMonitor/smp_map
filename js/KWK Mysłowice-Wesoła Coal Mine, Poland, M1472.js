@@ -498,5 +498,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([50.1811, 19.0937], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('KWK Mysłowice-Wesoła Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("KWK Mysłowice-Wesoła Coal Mine", { permanent: true, direction: 'right'});

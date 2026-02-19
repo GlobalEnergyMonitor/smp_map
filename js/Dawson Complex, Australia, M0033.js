@@ -822,5 +822,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-24.6168211, 150.0504833], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Dawson Complex', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Dawson Complex", { permanent: true, direction: 'right'});

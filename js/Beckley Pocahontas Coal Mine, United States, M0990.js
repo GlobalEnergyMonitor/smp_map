@@ -1954,5 +1954,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([37.774351, -81.257788], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Beckley Pocahontas Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Beckley Pocahontas Coal Mine", { permanent: true, direction: 'right'});

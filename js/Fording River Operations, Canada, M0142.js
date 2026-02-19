@@ -2416,5 +2416,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([50.19284, -114.86473], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Proposed, Operating');
-    GEMMine.bindTooltip('Fording River Operations', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Proposed, Operating");
+    GEMMine.bindTooltip("Fording River Operations", { permanent: true, direction: 'right'});

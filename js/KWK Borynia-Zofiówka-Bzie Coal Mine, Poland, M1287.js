@@ -912,5 +912,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([50.24216782, 18.9881119], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('KWK Borynia-Zofiówka-Bzie Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("KWK Borynia-Zofiówka-Bzie Coal Mine", { permanent: true, direction: 'right'});

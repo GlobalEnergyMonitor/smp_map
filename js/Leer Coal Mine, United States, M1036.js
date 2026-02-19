@@ -1298,5 +1298,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([39.340407, -79.975285], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Leer Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Leer Coal Mine", { permanent: true, direction: 'right'});

@@ -460,5 +460,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([5.32767027, -73.70392379], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('La Ramada Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("La Ramada Coal Mine", { permanent: true, direction: 'right'});

@@ -302,5 +302,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([39.934983, 112.915365], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Datong Wangcun Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Datong Wangcun Coal Mine", { permanent: true, direction: 'right'});

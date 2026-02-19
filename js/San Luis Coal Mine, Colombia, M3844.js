@@ -180,8 +180,8 @@
     var GEMMine;
                         
     GEMMine = L.marker([6.69674, -73.516186], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('San Luis Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("San Luis Coal Mine", { permanent: true, direction: 'right'});
     GEMMine = L.marker([6.71603597, -73.57893771], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('San Luis Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("San Luis Coal Mine", { permanent: true, direction: 'right'});

@@ -620,5 +620,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([36.364173, 112.858361], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Yuwu Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Yuwu Coal Mine", { permanent: true, direction: 'right'});

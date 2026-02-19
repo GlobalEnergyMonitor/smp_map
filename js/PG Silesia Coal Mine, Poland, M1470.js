@@ -396,5 +396,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([49.9386, 19.0144], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('PG Silesia Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("PG Silesia Coal Mine", { permanent: true, direction: 'right'});

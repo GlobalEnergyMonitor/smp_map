@@ -2124,5 +2124,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-23.072256, 148.483994], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Oaky Creek Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Oaky Creek Coal Mine", { permanent: true, direction: 'right'});

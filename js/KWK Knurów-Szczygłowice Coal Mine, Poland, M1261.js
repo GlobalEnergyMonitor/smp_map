@@ -726,5 +726,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([50.221919, 18.6721], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('KWK Knurów-Szczygłowice Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("KWK Knurów-Szczygłowice Coal Mine", { permanent: true, direction: 'right'});

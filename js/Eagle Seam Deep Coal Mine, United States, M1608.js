@@ -612,5 +612,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([37.710028, -81.749111], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Eagle Seam Deep Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Eagle Seam Deep Coal Mine", { permanent: true, direction: 'right'});

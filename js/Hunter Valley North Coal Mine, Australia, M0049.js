@@ -602,5 +602,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-32.4657844, 150.9734981], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Hunter Valley North Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Hunter Valley North Coal Mine", { permanent: true, direction: 'right'});

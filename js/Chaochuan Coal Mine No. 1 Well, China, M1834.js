@@ -552,5 +552,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([34.055418, 112.89473], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Chaochuan Coal Mine No. 1 Well', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Chaochuan Coal Mine No. 1 Well", { permanent: true, direction: 'right'});

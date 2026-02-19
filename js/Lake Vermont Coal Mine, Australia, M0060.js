@@ -458,8 +458,8 @@
     var GEMMine;
                         
     GEMMine = L.marker([-22.3894938, 148.3769527], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Proposed');
-    GEMMine.bindTooltip('Lake Vermont Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Proposed");
+    GEMMine.bindTooltip("Lake Vermont Coal Mine", { permanent: true, direction: 'right'});
     GEMMine = L.marker([-22.4611726, 148.4056045], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Lake Vermont Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Lake Vermont Coal Mine", { permanent: true, direction: 'right'});

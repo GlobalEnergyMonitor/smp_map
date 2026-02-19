@@ -430,5 +430,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-32.44061413, 151.0511266], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Ravensworth East Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Ravensworth East Coal Mine", { permanent: true, direction: 'right'});

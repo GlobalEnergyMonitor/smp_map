@@ -606,8 +606,8 @@
     var GEMMine;
                         
     GEMMine = L.marker([54.00207428, 86.59873292], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Proposed');
-    GEMMine.bindTooltip('Krasnobrodsky Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Proposed");
+    GEMMine.bindTooltip("Krasnobrodsky Coal Mine", { permanent: true, direction: 'right'});
     GEMMine = L.marker([54.1677527, 86.4732567], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Krasnobrodsky Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Krasnobrodsky Coal Mine", { permanent: true, direction: 'right'});

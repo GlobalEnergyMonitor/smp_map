@@ -258,5 +258,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-21.792321, 147.962045], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Goonyella-Riverside Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Goonyella-Riverside Coal Mine", { permanent: true, direction: 'right'});

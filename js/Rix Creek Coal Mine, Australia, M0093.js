@@ -512,5 +512,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-32.52393559, 151.1208768], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating, Proposed');
-    GEMMine.bindTooltip('Rix Creek Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating, Proposed");
+    GEMMine.bindTooltip("Rix Creek Coal Mine", { permanent: true, direction: 'right'});

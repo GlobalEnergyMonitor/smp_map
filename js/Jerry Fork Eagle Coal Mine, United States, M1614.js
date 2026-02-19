@@ -1898,5 +1898,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([38.296714, -80.990225], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Jerry Fork Eagle Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Jerry Fork Eagle Coal Mine", { permanent: true, direction: 'right'});

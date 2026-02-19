@@ -3870,5 +3870,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([37.79972222, -81.94666667], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Davy Branch Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Davy Branch Coal Mine", { permanent: true, direction: 'right'});

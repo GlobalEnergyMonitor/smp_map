@@ -300,5 +300,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-30.639584, 150.167277], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Tarrawonga Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Tarrawonga Coal Mine", { permanent: true, direction: 'right'});

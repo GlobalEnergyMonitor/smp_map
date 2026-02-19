@@ -706,5 +706,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-30.562606, 150.11498], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Maules Creek Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Maules Creek Coal Mine", { permanent: true, direction: 'right'});

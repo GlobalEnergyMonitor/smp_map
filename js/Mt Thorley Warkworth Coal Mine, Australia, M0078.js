@@ -346,5 +346,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-32.60700995, 151.0901636], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Proposed, Operating');
-    GEMMine.bindTooltip('Mt Thorley Warkworth Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Proposed, Operating");
+    GEMMine.bindTooltip("Mt Thorley Warkworth Coal Mine", { permanent: true, direction: 'right'});

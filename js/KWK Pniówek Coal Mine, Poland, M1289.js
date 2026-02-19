@@ -470,5 +470,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([49.9658, 18.689007], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('KWK Pniówek Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("KWK Pniówek Coal Mine", { permanent: true, direction: 'right'});

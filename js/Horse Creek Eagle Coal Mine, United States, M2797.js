@@ -2402,5 +2402,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([37.891517, -81.301483], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Horse Creek Eagle Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Horse Creek Eagle Coal Mine", { permanent: true, direction: 'right'});

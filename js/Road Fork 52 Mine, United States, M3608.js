@@ -796,5 +796,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([37.578056, -81.57], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Road Fork 52 Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Road Fork 52 Mine", { permanent: true, direction: 'right'});

@@ -1270,5 +1270,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([38.352572, -81.458882], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Blue Creek No. 1 Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Blue Creek No. 1 Coal Mine", { permanent: true, direction: 'right'});

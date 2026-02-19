@@ -318,5 +318,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([36.012508, 112.930231], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Zhaozhuang Coal Mine No. 2 Well', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Zhaozhuang Coal Mine No. 2 Well", { permanent: true, direction: 'right'});

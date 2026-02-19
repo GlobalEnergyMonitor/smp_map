@@ -420,5 +420,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([53.704709, 88.071127], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating, Cancelled');
-    GEMMine.bindTooltip('V.I. Lenin Underground Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating, Cancelled");
+    GEMMine.bindTooltip("V.I. Lenin Underground Coal Mine", { permanent: true, direction: 'right'});

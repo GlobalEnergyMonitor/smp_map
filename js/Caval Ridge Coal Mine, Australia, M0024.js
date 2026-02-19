@@ -442,5 +442,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-22.1056069, 148.0475444], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating, Proposed');
-    GEMMine.bindTooltip('Caval Ridge Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating, Proposed");
+    GEMMine.bindTooltip("Caval Ridge Coal Mine", { permanent: true, direction: 'right'});

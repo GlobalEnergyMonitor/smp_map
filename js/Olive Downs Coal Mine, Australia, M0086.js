@@ -546,5 +546,5 @@
     var GEMMine;
                         
     GEMMine = L.marker([-22.21399671, 148.3569053], {icon: GEMMineIcon}).addTo(map); 
-    GEMMine.bindPopup('Operating status(es): Operating');
-    GEMMine.bindTooltip('Olive Downs Coal Mine', { permanent: true, direction: 'right'});
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Olive Downs Coal Mine", { permanent: true, direction: 'right'});
