@@ -551,7 +551,7 @@
     // I tried many different adjustments, but in the end chose a setView with a fixed zoom of 12 to be much more reliable.
     //var map = L.map('map', {layers: [googleHybrid]}).fitBounds(bounds) 
                         
-    var map = L.map('map', {layers: [googleHybrid]}).setView([36.344134999999994, 112.851905], 12.0)                     
+    var map = L.map('map', {layers: [googleHybrid]}).setView([36.344134999999994, 112.851905], 11.0)                     
     var markerLayerGroup = L.layerGroup();
                         
 
