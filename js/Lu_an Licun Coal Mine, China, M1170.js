@@ -49,7 +49,7 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -79,7 +79,7 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -109,7 +109,7 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -139,7 +139,7 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -169,7 +169,7 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -199,7 +199,7 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -229,7 +229,7 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     },
     {
@@ -259,41 +259,88 @@
         "Mine Name": "Lu'an Licun Coal Mine",
         "Country / Area": "China",
         "Last researched": "Jun 22, 2025",
-        "build_version": "mines - wiki dev (built on January 15 2026 19.44.59 EST)"
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.1 (built on February 13 2026 18.38.33 EST)"
       }
     }
   ]
 }
-
-    var bounds = L.latLngBounds(L.latLng(36.05028, 112.80038), L.latLng(36.091706, 112.88672));
+    var bounds = L.latLngBounds(L.latLng(36.05028, 112.80038), L.latLng(36.091706, 112.88672));                        
+    var googleStreet =  L.tileLayer('https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 20, attribution: '&copy; Google Maps'})
+    var googleHybrid =  L.tileLayer('https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 20, attribution: '&copy; Google Maps'})
+    
+    // When this map is embedded in the GEM Wiki via an iframe widget, the enclosing html css for width and height of #map does not consistently
+    // come through, resulting in sometimes being 0, 0. This seems to mess fitBounds up resulting in a fully zoomed out map showing the entire planet.
+    // I tried many different adjustments, but in the end chose a setView with a fixed zoom of 12 to be much more reliable.
+    //var map = L.map('map', {layers: [googleHybrid]}).fitBounds(bounds) 
                         
-    // create some basemap layers - use google imagery as this is what we used in research - the attribution might need more refining/research
-    var googleStreet =  L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
-    var googleHybrid =  L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}', {maxZoom: 18, attribution: '&copy; Google Maps'})
+    var map = L.map('map', {layers: [googleHybrid]}).setView([36.070993, 112.84355], 12.0)                     
+    var markerLayerGroup = L.layerGroup();
+                        
 
-    var map = L.map('map', {layers: [googleStreet, googleHybrid]}).fitBounds(bounds) 
-
-    // add basemaps layer control
-    var baseMaps = {"Street view": googleStreet,"Satellite view": googleHybrid};
-    var layerControl = L.control.layers(baseMaps).addTo(map);
-
-    // add popup content
     function onEachFeature(feature, layer) {
         let popupContent = "<b><u>" + feature.properties['description'] + "</u></b><br /><br />"
+        let tooltipContent = feature.properties['id'] + ": " + feature.properties['description']
         for (const [key, value] of Object.entries(feature.properties)) {
             popupContent += '<b>' + key + '</b>: ' + value + '<br />'
         }
         layer.bindPopup(popupContent, { maxHeight: 200 , maxWidth: 400})
+        layer.bindTooltip(tooltipContent, { permanent: false, direction: 'right'});
+        if (feature.properties['mine feature category'] == "mine boundary") {
+           layer.setStyle({ color: '#CA4A50', fillColor: '#CA4A50', opacity: 1.0 });
+        }
+        markerLayerGroup.addLayer(layer)
 	}
-
-    // add the mine layer to the map
+    
+    markerLayerGroup.addTo(map);
     const mineLayer = L.geoJSON(mine, {onEachFeature}).addTo(map)
-
-    // Add the GEM mine location as markers                   
     var GEMMineIcon = L.icon({ iconUrl: 'https://maps.google.com/mapfiles/kml/paddle/red-circle.png', iconSize:  [40, 40]});
+    
+    const myDiv = document.getElementById('map');
+    const width = myDiv.offsetWidth;
+    const height = myDiv.offsetHeight;
+    console.log("#map width: " + width + ", height: " + height);                    
 
+    // Create a "dummy" layer group specifically to act as the tooltip toggle switch in the control
+    var tooltipToggleLayer = L.layerGroup();
+    // Add event listeners to the map that listen for the toggle layer being added or removed
+    map.on('layeradd', function (e) {
+        if (e.layer === tooltipToggleLayer) {
+            // When the "Tooltip" overlay is selected, iterate over all markers and make tooltips permanent
+            markerLayerGroup.eachLayer(function (layer) {
+                if (layer.getTooltip()) {
+                    layer.getTooltip().options.permanent = true;
+                    layer.openTooltip(); // Open the tooltip permanently
+                }
+            });
+        }
+    });
+    map.on('layerremove', function (e) {
+        if (e.layer === tooltipToggleLayer) {
+            // When the "Tooltip" overlay is deselected, make tooltips non-permanent and close them
+            markerLayerGroup.eachLayer(function (layer) {
+                if (layer.getTooltip()) {
+                    layer.getTooltip().options.permanent = false;
+                    layer.closeTooltip();
+                }
+            });
+        }
+    });
+
+    map.on('zoomend', function() {
+        console.log("Current zoom level: " + map.getZoom());
+    });
+
+    var baseMaps = {
+        "Satellite view": googleHybrid,
+        "Street view": googleStreet
+    };
+    var overlayMaps = {
+        "Labels": tooltipToggleLayer // The toggle switch for tooltips
+    };
+    var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+                        
     var GEMMine;
                         
-	GEMMine = L.marker([36.088815, 112.862814], {icon: GEMMineIcon}).addTo(map); 
-	GEMMine.bindPopup('Lu'an Licun Coal Mine Operating mine');
-	GEMMine.bindTooltip('Lu'an Licun Coal Mine Operating mine', { permanent: true, direction: 'right'});
+    GEMMine = L.marker([36.088815, 112.862814], {icon: GEMMineIcon}).addTo(map); 
+    GEMMine.bindPopup("Operating status(es): Operating");
+    GEMMine.bindTooltip("Lu'an Licun Coal Mine", { permanent: true, direction: 'right'});
